@@ -5,7 +5,7 @@
 - **Local:** FastAPI serve a tela e os dados reais da Ouro em `GET /v1/painel`; `POST /v1/assistente` usa Ollama local. A interface não envia perguntas a um provedor de LLM remoto.
 - **Público:** GitHub Pages serve a mesma tela com uma fotografia minimizada da Ouro em `web/data/painel.json`. O assistente fica explicitamente indisponível nessa versão; nenhum endpoint do computador é exposto.
 
-Publicação prevista: https://guibezerra24.github.io/passo-livre/ . Código: https://github.com/guibezerra24/passo-livre . A confirmação da publicação está em STATUS.md.
+Publicado em 17/11/2026: https://guibezerra24.github.io/passo-livre/ . Código: https://github.com/guibezerra24/passo-livre . Publicação confirmada como concluída e página respondendo HTTP 200.
 
 ## Abrir localmente
 

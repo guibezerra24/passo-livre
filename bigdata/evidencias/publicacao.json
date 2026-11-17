@@ -1,0 +1,16 @@
+{
+  "site": "https://guibezerra24.github.io/passo-livre/",
+  "repositorio": "https://github.com/guibezerra24/passo-livre",
+  "http_dados": 200,
+  "registros": 60366,
+  "fotografia_publica_identica_ao_arquivo_local": true,
+  "assistente_publico": false,
+  "testes_interface": [
+    "filtros de distrito e situacao: Se, abertas = 16",
+    "paginacao: pagina 2 de 2",
+    "selecao de registro no mapa",
+    "busca sem resultado",
+    "layout computador e celular sem rolagem horizontal",
+    "resposta com fontes e recusa no assistente local"
+  ]
+}

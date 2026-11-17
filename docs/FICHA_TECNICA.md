@@ -10,7 +10,7 @@
 | Dados executados | SP156 2º trimestre de 2026, distritos do IBGE, clima histórico Open-Meteo |
 | Dados opcionais | SPTrans Olho Vivo: conector preparado; token ainda não disponível |
 | IA | Qwen2.5 1.5B Q4_K_M local; TF-IDF; RAG; agente limitado com busca, validação e revisão |
-| URL pública e GitHub | Ainda não publicados; o repositório desta entrega é local |
+| URL pública e GitHub | [Painel público](https://guibezerra24.github.io/passo-livre/) e [repositório](https://github.com/guibezerra24/passo-livre) |
 | Indicadores | Solicitações por distrito e serviço, percentual de finalização administrativa, tempo médio até finalização e cobertura da base |
 | ODS propostos | 10 e 11: inclusão e mobilidade acessível; contribuição a validar com usuários |
 
@@ -30,6 +30,6 @@ A NBR 9050 não integra a base inicial. Uma cópia licenciada e sua edição pre
 
 ## Integração prevista com os colegas
 
-O app consome `POST /v1/assistente`, `GET /v1/ocorrencias` e `GET /v1/indicadores`. Visão computacional, robô, RPA, hospedagem pública e pitch são componentes de outros integrantes; não estão implementados neste pacote.
+O app local consome `GET /v1/painel` e `POST /v1/assistente`; `GET /v1/ocorrencias` e `GET /v1/indicadores` também estão disponíveis para integração. GitHub Pages publica uma fotografia minimizada da Ouro, sem executar a LLM. Visão computacional, robô, RPA, entrada de novos relatos e pitch são componentes de outros integrantes; não estão implementados neste pacote.
 
 Os endpoints de dados recusam servir uma suposta Ouro quando ela não foi importada. `preview=true` oferece explicitamente a pré-validação local, com a origem identificada na resposta.

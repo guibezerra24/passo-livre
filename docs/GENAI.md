@@ -112,7 +112,7 @@ As saídas problemáticas são material de avaliação, não orientação ao usu
 
 Inferência local; não enviar nome, CPF, telefone ou condições médicas no prompt. A API não grava perguntas de uso real em disco. Somente perguntas sintéticas de avaliação estão versionadas. `API_TOKEN` opcional no ambiente local; definir token e HTTPS antes da publicação. Servidor configurado para loopback no README; limite de tamanho da pergunta e uma geração concorrente. Documentos são dados, não instruções; teste T15 cobre uma tentativa simples de injeção, sem demonstrar resistência completa.
 
-Contrato: `POST /v1/assistente` recebe `pergunta` e `modo`; retorna `answer.status`, `answer.resposta`, `answer.fontes`, fontes detalhadas e latência. Swagger em `/docs`. O aplicativo do grupo deve exibir fontes, limites e recusas. O módulo foi testado localmente; publicação e tela integrada ao app ainda pendentes.
+Contrato: `POST /v1/assistente` recebe `pergunta` e `modo`; retorna `answer.status`, `answer.resposta`, `answer.fontes`, fontes detalhadas e latência. Swagger em `/docs`. A tela integrada está em `/`, com fontes clicáveis, limites e recusas. Foi testada com uma resposta fundamentada sobre direito ao transporte e uma recusa na pergunta sobre reclamação de ônibus quando a validação de fontes falhou. A versão pública GitHub Pages não executa a LLM: a consulta funciona na instalação local, conforme APP.md.
 
 ## Reprodução
 
@@ -122,4 +122,4 @@ Seguir o README; executar `python -m genai.evaluate --retrieval-only` e `python 
 
 O experimento mostra benefício da recuperação de contexto sobre o modelo sem contexto neste conjunto. Também mostra que uma revisão pela mesma LLM não garante respostas fundamentadas. Prioridades: corpus maior com fontes licenciadas, avaliação independente, modelos mais capazes e verificação de afirmações. Não apresentar o protótipo como orientação jurídica definitiva ou roteador acessível certificado.
 
-**Links pendentes:** GitHub público, URL pública do MVP e vídeo de demonstração. Inserir links reais antes de enviar no Teams. Roteiro do vídeo em `docs/ROTEIRO_DEMONSTRACAO.md`.
+**Links:** [GitHub público](https://github.com/guibezerra24/passo-livre) e [painel público](https://guibezerra24.github.io/passo-livre/). **Pendente:** vídeo de demonstração com assistente local e análise dos experimentos. Roteiro em `docs/ROTEIRO_DEMONSTRACAO.md`.

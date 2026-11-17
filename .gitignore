@@ -10,7 +10,7 @@ bigdata/exportacao/
 *.sqlite
 *.log
 *.pdf
-# Metadados privados do workspace ficam apenas no pacote local de evidências.
+# Metadados privados do workspace permanecem apenas no ambiente local da equipe.
 bigdata/evidencias/databricks/run_*.json
 bigdata/evidencias/databricks/output_*.json
 bigdata/evidencias/databricks/notebook_*.html

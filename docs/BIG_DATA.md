@@ -45,8 +45,8 @@ flowchart LR
 5. **Bronze:** `COPY INTO` carrega arquivos JSONL como texto preservado. Não renomeie arquivos já carregados. A tabela `auditoria_bronze` registra antes, depois e novas linhas. Faça: lote 1 → lote 2 → repetir sem novos arquivos. A terceira execução deve acrescentar zero.
 6. **Prata:** conversão segura de datas e coordenadas; vínculo de distrito; seis regras com contagens e quarentena; última versão por chave; `MERGE` pela chave técnica. Contagens por regra podem se sobrepor. A caixa geográfica é uma validação ampla, não o limite oficial do município.
 7. **Ouro:** uma fato no grão de solicitação e dimensões de distrito, serviço e data. `ponto_id` nulo até haver associação validada. Cinco consultas executáveis no notebook e na pré-validação local.
-8. **Dados pessoais e produto:** endereço, número, CEP e campos livres não saem da coleta; coordenadas arredondadas a três casas na Ouro. Essa minimização não é prova formal de anonimização. A API aceita exportação da Ouro; a prévia local é explicitamente distinta. Inserir evidência da tela do app consumindo a exportação real.
-9. **Publicação:** README com autoria, instruções e contratos. Repositório público e links ainda precisam ser publicados.
+8. **Dados pessoais e produto:** endereço, número, CEP e campos livres não saem da coleta; coordenadas arredondadas a três casas na Ouro. Essa minimização não é prova formal de anonimização. App local consome a Ouro por `/v1/painel`; capturas reais em `bigdata/evidencias/app-*.jpg`. A versão pública serve fotografia minimizada da mesma exportação.
+9. **Publicação:** README com autoria, instruções e contratos. [Repositório público](https://github.com/guibezerra24/passo-livre) e [painel](https://guibezerra24.github.io/passo-livre/) publicados em 17/11/2026.
 
 ## Como executar o Airflow
 
@@ -81,7 +81,7 @@ Execução direta não substitui os prints Graph/Grid da disciplina.
 6. Após a coleta do outro dia, enviar somente os novos arquivos, mantendo os primeiros. Reexecutar e guardar contagens.
 7. Reexecutar sem upload e comprovar incremento zero na Bronze e estabilidade da Prata.
 8. Baixar `part-*.json` em `exportacao/mvp`; importar no projeto com `python -m bigdata.import_gold CAMINHO_DO_ARQUIVO`.
-9. Consumir `/v1/ocorrencias` e `/v1/indicadores` sem `preview=true` no app. Fotografar a tela real e a origem da exportação.
+9. Abrir o app local, que consome `/v1/painel` sem preview. Fotografar a tela e gerar a fotografia pública com `python -m scripts.build_public`; atualizar GitHub Pages conforme APP.md.
 
 Primeiro lote executado no Databricks em 17/11/2026: Bronze 60.653, Prata/Ouro 60.366, quarentena 100, dimensões 96 distritos / 20 serviços / 91 datas. Cinco consultas e exportação real para a API concluídas. Evidências em `bigdata/evidencias/databricks`. A primeira tentativa falhou porque PATTERN recebeu expressão regular; corrigido para o glob `*.jsonl`, conforme a documentação oficial de COPY INTO. O primeiro upload foi feito pela CLI oficial com OAuth porque a interface rejeitou automação. Registrar upload manual do segundo lote no Catalog Explorer; esse segundo dia continua pendente.
 

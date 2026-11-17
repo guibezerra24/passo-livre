@@ -1,12 +1,15 @@
 {
-  "resultado": "6 testes passaram",
+  "resultado": "8 testes passaram",
   "escopo": [
     "busca e citação inexistente",
     "contrato JSON",
     "qualidade e remoção de campos pessoais",
     "autenticação e limites da API",
     "agente recusa após duas citações inválidas",
-    "avaliação não premia fonte em recusa indevida"
+    "avaliação não premia fonte em recusa indevida",
+    "contrato público preserva dados e exclui campos pessoais",
+    "painel exige autenticação quando configurada"
   ],
-  "aviso": "Testes locais; não validam execução Databricks ou desempenho semântico geral."
+  "interface": "Filtros, paginação, seleção no mapa, busca vazia, fonte de dados local/pública, resposta e recusa do assistente; layout computador/celular verificados.",
+  "aviso": "Testes não comprovam fundamentação semântica geral. Evidências reais Databricks estão em bigdata/evidencias/databricks."
 }
