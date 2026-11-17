@@ -1,0 +1,12 @@
+{
+  "resultado": "6 testes passaram",
+  "escopo": [
+    "busca e citação inexistente",
+    "contrato JSON",
+    "qualidade e remoção de campos pessoais",
+    "autenticação e limites da API",
+    "agente recusa após duas citações inválidas",
+    "avaliação não premia fonte em recusa indevida"
+  ],
+  "aviso": "Testes locais; não validam execução Databricks ou desempenho semântico geral."
+}

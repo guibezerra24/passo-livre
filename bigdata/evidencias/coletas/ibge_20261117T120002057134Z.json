@@ -1,0 +1,12 @@
+{
+  "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3550308/distritos",
+  "licenca": "Dados públicos IBGE; atribuição à fonte",
+  "papel": "Cadastro territorial; não fornece população PCD nesta consulta",
+  "fonte": "ibge",
+  "coletado_em_utc": "2026-11-17T12:00:02.057122+00:00",
+  "lote_id": "20261117T120002057134Z",
+  "linhas": 96,
+  "arquivo": "bigdata/chegada/ibge/ibge_20261117T120002057134Z.jsonl",
+  "sha256": "470ec90b9ecd618c3d333e09fa4f5a0c173527924e403b629aaaac210473e611",
+  "data_coleta_nao_e_data_referencia": true
+}

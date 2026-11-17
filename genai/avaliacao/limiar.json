@@ -1,0 +1,97 @@
+{
+  "threshold": 0.2,
+  "balanced_accuracy_validacao": 0.875,
+  "method": "Maior acurácia balanceada em validação; empate prefere menor limiar para preservar cobertura. Teste não participa do cálculo. Versão 2 exploratória após diagnóstico do piloto.",
+  "trials": [
+    {
+      "threshold": 0.05,
+      "balanced_accuracy_validacao": 0.5
+    },
+    {
+      "threshold": 0.08,
+      "balanced_accuracy_validacao": 0.5
+    },
+    {
+      "threshold": 0.1,
+      "balanced_accuracy_validacao": 0.5
+    },
+    {
+      "threshold": 0.12,
+      "balanced_accuracy_validacao": 0.5
+    },
+    {
+      "threshold": 0.15,
+      "balanced_accuracy_validacao": 0.625
+    },
+    {
+      "threshold": 0.18,
+      "balanced_accuracy_validacao": 0.75
+    },
+    {
+      "threshold": 0.2,
+      "balanced_accuracy_validacao": 0.875
+    },
+    {
+      "threshold": 0.25,
+      "balanced_accuracy_validacao": 0.875
+    },
+    {
+      "threshold": 0.3,
+      "balanced_accuracy_validacao": 0.75
+    },
+    {
+      "threshold": 0.35,
+      "balanced_accuracy_validacao": 0.875
+    },
+    {
+      "threshold": 0.4,
+      "balanced_accuracy_validacao": 0.875
+    },
+    {
+      "threshold": 0.45,
+      "balanced_accuracy_validacao": 0.625
+    }
+  ],
+  "scores": [
+    {
+      "id": "V01",
+      "score": 0.421954,
+      "answerable": true
+    },
+    {
+      "id": "V02",
+      "score": 0.470351,
+      "answerable": true
+    },
+    {
+      "id": "V03",
+      "score": 0.299842,
+      "answerable": true
+    },
+    {
+      "id": "V04",
+      "score": 0.421863,
+      "answerable": true
+    },
+    {
+      "id": "V05",
+      "score": 0.133357,
+      "answerable": false
+    },
+    {
+      "id": "V06",
+      "score": 0.185346,
+      "answerable": false
+    },
+    {
+      "id": "V07",
+      "score": 0.302125,
+      "answerable": false
+    },
+    {
+      "id": "V08",
+      "score": 0.163536,
+      "answerable": false
+    }
+  ]
+}

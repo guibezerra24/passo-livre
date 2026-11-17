@@ -1,0 +1,107 @@
+{
+  "n": 10,
+  "recall@1": 1.0,
+  "recall@3": 1.0,
+  "rows": [
+    {
+      "id": "T01",
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recuperados": [
+        "LBI46",
+        "LBI53",
+        "LBI47"
+      ]
+    },
+    {
+      "id": "T02",
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recuperados": [
+        "LBI46P1",
+        "LBI63",
+        "LBI55"
+      ]
+    },
+    {
+      "id": "T03",
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recuperados": [
+        "LBI47",
+        "LBI55",
+        "LBI63"
+      ]
+    },
+    {
+      "id": "T04",
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recuperados": [
+        "LBI53",
+        "LBI46P1",
+        "LBI55"
+      ]
+    },
+    {
+      "id": "T05",
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recuperados": [
+        "LBI55",
+        "LBI46P1",
+        "LBI47"
+      ]
+    },
+    {
+      "id": "T06",
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recuperados": [
+        "LBI63",
+        "LBI55",
+        "LBI53"
+      ]
+    },
+    {
+      "id": "T07",
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recuperados": [
+        "SPRECL",
+        "SPINFO",
+        "LBI53"
+      ]
+    },
+    {
+      "id": "T08",
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recuperados": [
+        "SPFORA",
+        "LBI53",
+        "LBI46"
+      ]
+    },
+    {
+      "id": "T09",
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recuperados": [
+        "SPFORA",
+        "LBI46P1",
+        "SPINFO"
+      ]
+    },
+    {
+      "id": "T10",
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recuperados": [
+        "SPINFO",
+        "SPRECL",
+        "PLLIMIT"
+      ]
+    }
+  ]
+}

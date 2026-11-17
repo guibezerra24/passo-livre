@@ -1,0 +1,101 @@
+[
+  {
+    "id": "LBI46",
+    "titulo": "Direito ao transporte e mobilidade, artigo 46",
+    "texto": "A pessoa com deficiência ou mobilidade reduzida tem direito ao transporte e à mobilidade em igualdade de oportunidades. Esse direito deve ser assegurado pela identificação e eliminação de obstáculos e barreiras ao acesso.",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+    "licenca": "Texto legal público; paráfrase editorial, não transcrição consolidada.",
+    "formato": "Paráfrase em texto",
+    "revisado_em": "2026-11-17"
+  },
+  {
+    "id": "LBI46P1",
+    "titulo": "Componentes do transporte coletivo, artigo 46 parágrafo 1",
+    "texto": "A acessibilidade dos serviços de transporte coletivo abrange veículos, terminais, estações, pontos de parada, sistema viário e prestação do serviço. Não se limita ao veículo.",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+    "licenca": "Texto legal público; paráfrase editorial.",
+    "formato": "Paráfrase em texto",
+    "revisado_em": "2026-11-17"
+  },
+  {
+    "id": "LBI47",
+    "titulo": "Vagas de estacionamento reservadas, artigo 47",
+    "texto": "Em estacionamento aberto ao público, de uso público ou privado coletivo, e nas vias públicas, devem existir vagas reservadas próximas aos acessos de pedestres, sinalizadas, para veículos que transportem pessoa com deficiência com comprometimento de mobilidade, devidamente identificados.",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+    "licenca": "Texto legal público; paráfrase editorial.",
+    "formato": "Paráfrase em texto",
+    "revisado_em": "2026-11-17"
+  },
+  {
+    "id": "LBI53",
+    "titulo": "Acessibilidade e autonomia, artigo 53",
+    "texto": "A acessibilidade é um direito que garante à pessoa com deficiência ou mobilidade reduzida viver de forma independente e exercer direitos de cidadania e participação social.",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+    "licenca": "Texto legal público; paráfrase editorial.",
+    "formato": "Paráfrase em texto",
+    "revisado_em": "2026-11-17"
+  },
+  {
+    "id": "LBI55",
+    "titulo": "Desenho universal em projetos, artigo 55",
+    "texto": "Projetos do meio físico, transporte, informação, comunicação e outros serviços, equipamentos e instalações abertos ao público ou de uso coletivo devem atender ao desenho universal e ter como referência as normas de acessibilidade.",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+    "licenca": "Texto legal público; paráfrase editorial.",
+    "formato": "Paráfrase em texto",
+    "revisado_em": "2026-11-17"
+  },
+  {
+    "id": "LBI63",
+    "titulo": "Acessibilidade de sites, artigo 63",
+    "texto": "Sites mantidos por empresas com sede ou representação comercial no Brasil e por órgãos de governo devem oferecer acessibilidade à pessoa com deficiência, conforme melhores práticas e diretrizes de acessibilidade internacionalmente adotadas.",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+    "licenca": "Texto legal público; paráfrase editorial.",
+    "formato": "Paráfrase em texto",
+    "revisado_em": "2026-11-17"
+  },
+  {
+    "id": "SPRECL",
+    "titulo": "Dados para reclamação sobre ônibus",
+    "texto": "Para reclamar do transporte por ônibus, informe prefixo do veículo, data, local, horário e descrição do ocorrido. A Central 156 recebe manifestações; o protocolo permite acompanhar o atendimento.",
+    "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=fiscalizacao",
+    "licenca": "Licença de republicação não identificada; resumo editorial curto com atribuição.",
+    "formato": "Paráfrase em texto",
+    "revisado_em": "2026-11-17"
+  },
+  {
+    "id": "SPFORA",
+    "titulo": "Desembarque fora do ponto",
+    "texto": "A orientação da SPTrans admite desembarque de pessoas com deficiência ou mobilidade reduzida fora do ponto nos casos legais, respeitando a segurança de passageiros, operadores e transeuntes. Para mulheres e idosos, a página informa o intervalo entre 22h e 05h.",
+    "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=fiscalizacao",
+    "licenca": "Licença de republicação não identificada; resumo editorial curto com atribuição.",
+    "formato": "Paráfrase em texto",
+    "revisado_em": "2026-11-17"
+  },
+  {
+    "id": "SPINFO",
+    "titulo": "Informações de linhas e itinerários",
+    "texto": "O site da SPTrans e a Central 156 são canais de informações sobre linhas e itinerários. O Passo Livre não dispõe, nesta base documental, de horários de chegada nem de confirmação da acessibilidade de uma calçada em tempo real.",
+    "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=fiscalizacao",
+    "licenca": "Resumo editorial e limite do protótipo explicitado.",
+    "formato": "Paráfrase em texto",
+    "revisado_em": "2026-11-17"
+  },
+  {
+    "id": "PLLIMIT",
+    "titulo": "Limites do mapa colaborativo Passo Livre",
+    "texto": "Regra do protótipo: relatos representam observações, não certificação técnica. Ausência de relatos não significa ausência de obstáculos. A base não contém rotas verificadas em tempo real. Não declarar trajeto seguro, estimar horário de ônibus ou inventar protocolo de prefeitura. O mapa deve distinguir dados demonstrativos de registros reais.",
+    "url": "local:docs/FICHA_TECNICA.md",
+    "licenca": "Conteúdo autoral do projeto.",
+    "formato": "Paráfrase em texto",
+    "revisado_em": "2026-11-17"
+  },
+  {
+    "id": "PLNBR",
+    "titulo": "Normas técnicas fora da base",
+    "texto": "A NBR 9050 não foi incorporada à base inicial. Não consta nesta base valor normativo de inclinação de rampa, largura mínima de calçada ou dimensões de manobra. Consultar edição licenciada e aplicável antes de incluir tais valores.",
+    "url": "local:docs/FICHA_TECNICA.md",
+    "licenca": "Conteúdo autoral do projeto.",
+    "formato": "Paráfrase em texto",
+    "revisado_em": "2026-11-17"
+  }
+]

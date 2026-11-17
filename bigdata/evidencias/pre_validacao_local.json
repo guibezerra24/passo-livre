@@ -1,0 +1,1478 @@
+{
+  "ambiente": "PRE_VALIDACAO_LOCAL_SQLITE_NAO_DATABRICKS",
+  "executado_em": "2026-11-17T11:51:54.513893+00:00",
+  "qualidade": {
+    "id_ausente": 0,
+    "abertura_invalida": 0,
+    "finalizacao_invalida": 0,
+    "distrito_desconhecido": 100,
+    "coordenada_invalida": 65,
+    "cronologia_invalida": 0,
+    "avaliados": 60466,
+    "rejeitados_distintos": 100
+  },
+  "validos_distintos": 60366,
+  "idempotencia_local": {
+    "antes": 60366,
+    "depois_reexecucao": 60366
+  },
+  "consultas": {
+    "q1_distritos": {
+      "sql_local": "SELECT distrito,count(*) AS solicitacoes FROM fato GROUP BY distrito ORDER BY solicitacoes DESC",
+      "rows": [
+        {
+          "distrito": "Jabaquara",
+          "solicitacoes": 1864
+        },
+        {
+          "distrito": "Itaquera",
+          "solicitacoes": 1662
+        },
+        {
+          "distrito": "Grajaú",
+          "solicitacoes": 1647
+        },
+        {
+          "distrito": "Cidade Dutra",
+          "solicitacoes": 1453
+        },
+        {
+          "distrito": "Vila Medeiros",
+          "solicitacoes": 1451
+        },
+        {
+          "distrito": "Capão Redondo",
+          "solicitacoes": 1421
+        },
+        {
+          "distrito": "Tremembé",
+          "solicitacoes": 1249
+        },
+        {
+          "distrito": "Cidade Ademar",
+          "solicitacoes": 1214
+        },
+        {
+          "distrito": "Sapopemba",
+          "solicitacoes": 1208
+        },
+        {
+          "distrito": "Campo Limpo",
+          "solicitacoes": 1203
+        },
+        {
+          "distrito": "Sacomã",
+          "solicitacoes": 1124
+        },
+        {
+          "distrito": "Brasilândia",
+          "solicitacoes": 1079
+        },
+        {
+          "distrito": "Jaraguá",
+          "solicitacoes": 1076
+        },
+        {
+          "distrito": "Jardim Ângela",
+          "solicitacoes": 1040
+        },
+        {
+          "distrito": "Jardim São Luís",
+          "solicitacoes": 1023
+        },
+        {
+          "distrito": "Cachoeirinha",
+          "solicitacoes": 941
+        },
+        {
+          "distrito": "Itaim Paulista",
+          "solicitacoes": 920
+        },
+        {
+          "distrito": "Jaçanã",
+          "solicitacoes": 881
+        },
+        {
+          "distrito": "Cidade Lider",
+          "solicitacoes": 866
+        },
+        {
+          "distrito": "Saúde",
+          "solicitacoes": 865
+        },
+        {
+          "distrito": "Lajeado",
+          "solicitacoes": 863
+        },
+        {
+          "distrito": "Pirituba",
+          "solicitacoes": 845
+        },
+        {
+          "distrito": "São Mateus",
+          "solicitacoes": 809
+        },
+        {
+          "distrito": "Penha",
+          "solicitacoes": 788
+        },
+        {
+          "distrito": "Vila Curuçá",
+          "solicitacoes": 762
+        },
+        {
+          "distrito": "Cursino",
+          "solicitacoes": 747
+        },
+        {
+          "distrito": "Belém",
+          "solicitacoes": 743
+        },
+        {
+          "distrito": "Mandaqui",
+          "solicitacoes": 708
+        },
+        {
+          "distrito": "Ipiranga",
+          "solicitacoes": 703
+        },
+        {
+          "distrito": "Vila Formosa",
+          "solicitacoes": 697
+        },
+        {
+          "distrito": "Cangaiba",
+          "solicitacoes": 693
+        },
+        {
+          "distrito": "Ermelino Matarazzo",
+          "solicitacoes": 667
+        },
+        {
+          "distrito": "Vila Prudente",
+          "solicitacoes": 648
+        },
+        {
+          "distrito": "Vila Jacuí",
+          "solicitacoes": 648
+        },
+        {
+          "distrito": "Vila Mariana",
+          "solicitacoes": 633
+        },
+        {
+          "distrito": "Ponte Rasa",
+          "solicitacoes": 632
+        },
+        {
+          "distrito": "Freguesia do Ó",
+          "solicitacoes": 629
+        },
+        {
+          "distrito": "Santo Amaro",
+          "solicitacoes": 623
+        },
+        {
+          "distrito": "Santana",
+          "solicitacoes": 611
+        },
+        {
+          "distrito": "Vila Maria",
+          "solicitacoes": 601
+        },
+        {
+          "distrito": "Perdizes",
+          "solicitacoes": 601
+        },
+        {
+          "distrito": "Tucuruvi",
+          "solicitacoes": 588
+        },
+        {
+          "distrito": "Itaim Bibi",
+          "solicitacoes": 581
+        },
+        {
+          "distrito": "São Lucas",
+          "solicitacoes": 573
+        },
+        {
+          "distrito": "Cidade Tiradentes",
+          "solicitacoes": 573
+        },
+        {
+          "distrito": "José Bonifácio",
+          "solicitacoes": 565
+        },
+        {
+          "distrito": "Rio Pequeno",
+          "solicitacoes": 560
+        },
+        {
+          "distrito": "Aricanduva",
+          "solicitacoes": 538
+        },
+        {
+          "distrito": "Casa Verde",
+          "solicitacoes": 537
+        },
+        {
+          "distrito": "Vila Matilde",
+          "solicitacoes": 524
+        },
+        {
+          "distrito": "São Miguel",
+          "solicitacoes": 523
+        },
+        {
+          "distrito": "Pedreira",
+          "solicitacoes": 522
+        },
+        {
+          "distrito": "Campo Grande",
+          "solicitacoes": 518
+        },
+        {
+          "distrito": "Parelheiros",
+          "solicitacoes": 513
+        },
+        {
+          "distrito": "Limão",
+          "solicitacoes": 510
+        },
+        {
+          "distrito": "Jardim Helena",
+          "solicitacoes": 506
+        },
+        {
+          "distrito": "São Domingos",
+          "solicitacoes": 495
+        },
+        {
+          "distrito": "Liberdade",
+          "solicitacoes": 478
+        },
+        {
+          "distrito": "Campo Belo",
+          "solicitacoes": 468
+        },
+        {
+          "distrito": "Artur Alvim",
+          "solicitacoes": 465
+        },
+        {
+          "distrito": "Vila Sônia",
+          "solicitacoes": 461
+        },
+        {
+          "distrito": "Mooca",
+          "solicitacoes": 457
+        },
+        {
+          "distrito": "Pinheiros",
+          "solicitacoes": 453
+        },
+        {
+          "distrito": "Parque do Carmo",
+          "solicitacoes": 453
+        },
+        {
+          "distrito": "Socorro",
+          "solicitacoes": 447
+        },
+        {
+          "distrito": "Raposo Tavares",
+          "solicitacoes": 445
+        },
+        {
+          "distrito": "Guaianases",
+          "solicitacoes": 444
+        },
+        {
+          "distrito": "Tatuapé",
+          "solicitacoes": 440
+        },
+        {
+          "distrito": "Água Rasa",
+          "solicitacoes": 428
+        },
+        {
+          "distrito": "Lapa",
+          "solicitacoes": 427
+        },
+        {
+          "distrito": "Iguatemi",
+          "solicitacoes": 423
+        },
+        {
+          "distrito": "Cambuci",
+          "solicitacoes": 421
+        },
+        {
+          "distrito": "Santa Cecília",
+          "solicitacoes": 413
+        },
+        {
+          "distrito": "Butantã",
+          "solicitacoes": 399
+        },
+        {
+          "distrito": "Carrão",
+          "solicitacoes": 396
+        },
+        {
+          "distrito": "Vila Guilherme",
+          "solicitacoes": 374
+        },
+        {
+          "distrito": "São Rafael",
+          "solicitacoes": 365
+        },
+        {
+          "distrito": "Moema",
+          "solicitacoes": 331
+        },
+        {
+          "distrito": "República",
+          "solicitacoes": 327
+        },
+        {
+          "distrito": "Jardim Paulista",
+          "solicitacoes": 310
+        },
+        {
+          "distrito": "Vila Andrade",
+          "solicitacoes": 308
+        },
+        {
+          "distrito": "Alto de Pinheiros",
+          "solicitacoes": 303
+        },
+        {
+          "distrito": "Consolação",
+          "solicitacoes": 295
+        },
+        {
+          "distrito": "Perus",
+          "solicitacoes": 282
+        },
+        {
+          "distrito": "Morumbi",
+          "solicitacoes": 264
+        },
+        {
+          "distrito": "Bela Vista",
+          "solicitacoes": 220
+        },
+        {
+          "distrito": "Anhanguera",
+          "solicitacoes": 210
+        },
+        {
+          "distrito": "Jaguaré",
+          "solicitacoes": 204
+        },
+        {
+          "distrito": "Pari",
+          "solicitacoes": 191
+        },
+        {
+          "distrito": "Vila Leopoldina",
+          "solicitacoes": 183
+        },
+        {
+          "distrito": "Bom Retiro",
+          "solicitacoes": 182
+        },
+        {
+          "distrito": "Brás",
+          "solicitacoes": 174
+        },
+        {
+          "distrito": "Sé",
+          "solicitacoes": 162
+        },
+        {
+          "distrito": "Barra Funda",
+          "solicitacoes": 159
+        },
+        {
+          "distrito": "Jaguara",
+          "solicitacoes": 117
+        },
+        {
+          "distrito": "Marsilac",
+          "solicitacoes": 23
+        }
+      ]
+    },
+    "q2_servicos": {
+      "sql_local": "SELECT servico,count(*) AS solicitacoes FROM fato GROUP BY servico ORDER BY solicitacoes DESC",
+      "rows": [
+        {
+          "servico": "Entulho e grandes objetos em via pública - solicitar remoção",
+          "solicitacoes": 35465
+        },
+        {
+          "servico": "Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção",
+          "solicitacoes": 15823
+        },
+        {
+          "servico": "Guias, sarjetas e sarjetões - solicitar manutenção",
+          "solicitacoes": 1784
+        },
+        {
+          "servico": "Calçada pública - solicitar manutenção",
+          "solicitacoes": 1617
+        },
+        {
+          "servico": "Denunciar descarte irregular de entulho e outros resíduos em área pública",
+          "solicitacoes": 1492
+        },
+        {
+          "servico": "Acessibilidade - solicitar avaliação de obstáculo na calçada",
+          "solicitacoes": 1380
+        },
+        {
+          "servico": "Calçada particular - denunciar calçada danificada ou inexistente",
+          "solicitacoes": 1131
+        },
+        {
+          "servico": "Solicitar lavagem de calçadões e locais públicos",
+          "solicitacoes": 473
+        },
+        {
+          "servico": "Denunciar Fiação solta na calçada",
+          "solicitacoes": 429
+        },
+        {
+          "servico": "Fazer reclamação de falta de lavagem de calçadões",
+          "solicitacoes": 159
+        },
+        {
+          "servico": "Descarte de entulho em flagrante",
+          "solicitacoes": 142
+        },
+        {
+          "servico": "Sugerir construção de calçadas em áreas públicas e praças",
+          "solicitacoes": 141
+        },
+        {
+          "servico": "Denunciar caçamba irregular de entulho de construção",
+          "solicitacoes": 110
+        },
+        {
+          "servico": "Guias e Postes - Solicitar pintura",
+          "solicitacoes": 86
+        },
+        {
+          "servico": "Solicitar plantio de árvores em passeio público ou calçada",
+          "solicitacoes": 81
+        },
+        {
+          "servico": "Acessibilidade - Solicitar fiscalização em edificações",
+          "solicitacoes": 41
+        },
+        {
+          "servico": "Denunciar Poste em mau estado",
+          "solicitacoes": 5
+        },
+        {
+          "servico": "Reparo e manutenção de relógios de rua",
+          "solicitacoes": 4
+        },
+        {
+          "servico": "Acessibilidade - Denunciar falta de móveis adequados",
+          "solicitacoes": 2
+        },
+        {
+          "servico": "Acessibilidade - Denunciar falta de cadeira de rodas em supermercado",
+          "solicitacoes": 1
+        }
+      ]
+    },
+    "q3_impacto": {
+      "sql_local": "SELECT distrito,count(*) AS solicitacoes,round(100.0*avg(finalizada),2) AS percentual_finalizadas,round(avg(CASE WHEN finalizada=1 THEN dias END),2) AS media_dias_finalizadas FROM fato GROUP BY distrito ORDER BY solicitacoes DESC",
+      "rows": [
+        {
+          "distrito": "Jabaquara",
+          "solicitacoes": 1864,
+          "percentual_finalizadas": 94.05,
+          "media_dias_finalizadas": 2.58
+        },
+        {
+          "distrito": "Itaquera",
+          "solicitacoes": 1662,
+          "percentual_finalizadas": 85.68,
+          "media_dias_finalizadas": 6.26
+        },
+        {
+          "distrito": "Grajaú",
+          "solicitacoes": 1647,
+          "percentual_finalizadas": 90.71,
+          "media_dias_finalizadas": 4.12
+        },
+        {
+          "distrito": "Cidade Dutra",
+          "solicitacoes": 1453,
+          "percentual_finalizadas": 90.78,
+          "media_dias_finalizadas": 5.53
+        },
+        {
+          "distrito": "Vila Medeiros",
+          "solicitacoes": 1451,
+          "percentual_finalizadas": 90.76,
+          "media_dias_finalizadas": 5.83
+        },
+        {
+          "distrito": "Capão Redondo",
+          "solicitacoes": 1421,
+          "percentual_finalizadas": 84.87,
+          "media_dias_finalizadas": 6.03
+        },
+        {
+          "distrito": "Tremembé",
+          "solicitacoes": 1249,
+          "percentual_finalizadas": 88.87,
+          "media_dias_finalizadas": 5.18
+        },
+        {
+          "distrito": "Cidade Ademar",
+          "solicitacoes": 1214,
+          "percentual_finalizadas": 81.47,
+          "media_dias_finalizadas": 7.25
+        },
+        {
+          "distrito": "Sapopemba",
+          "solicitacoes": 1208,
+          "percentual_finalizadas": 86.34,
+          "media_dias_finalizadas": 7.66
+        },
+        {
+          "distrito": "Campo Limpo",
+          "solicitacoes": 1203,
+          "percentual_finalizadas": 86.78,
+          "media_dias_finalizadas": 6.92
+        },
+        {
+          "distrito": "Sacomã",
+          "solicitacoes": 1124,
+          "percentual_finalizadas": 85.5,
+          "media_dias_finalizadas": 7.35
+        },
+        {
+          "distrito": "Brasilândia",
+          "solicitacoes": 1079,
+          "percentual_finalizadas": 93.42,
+          "media_dias_finalizadas": 6.08
+        },
+        {
+          "distrito": "Jaraguá",
+          "solicitacoes": 1076,
+          "percentual_finalizadas": 85.69,
+          "media_dias_finalizadas": 5.2
+        },
+        {
+          "distrito": "Jardim Ângela",
+          "solicitacoes": 1040,
+          "percentual_finalizadas": 88.85,
+          "media_dias_finalizadas": 5.06
+        },
+        {
+          "distrito": "Jardim São Luís",
+          "solicitacoes": 1023,
+          "percentual_finalizadas": 85.43,
+          "media_dias_finalizadas": 7.15
+        },
+        {
+          "distrito": "Cachoeirinha",
+          "solicitacoes": 941,
+          "percentual_finalizadas": 89.59,
+          "media_dias_finalizadas": 3.41
+        },
+        {
+          "distrito": "Itaim Paulista",
+          "solicitacoes": 920,
+          "percentual_finalizadas": 87.93,
+          "media_dias_finalizadas": 8.02
+        },
+        {
+          "distrito": "Jaçanã",
+          "solicitacoes": 881,
+          "percentual_finalizadas": 83.2,
+          "media_dias_finalizadas": 3.95
+        },
+        {
+          "distrito": "Cidade Lider",
+          "solicitacoes": 866,
+          "percentual_finalizadas": 80.37,
+          "media_dias_finalizadas": 8.6
+        },
+        {
+          "distrito": "Saúde",
+          "solicitacoes": 865,
+          "percentual_finalizadas": 85.2,
+          "media_dias_finalizadas": 19.89
+        },
+        {
+          "distrito": "Lajeado",
+          "solicitacoes": 863,
+          "percentual_finalizadas": 95.94,
+          "media_dias_finalizadas": 4.09
+        },
+        {
+          "distrito": "Pirituba",
+          "solicitacoes": 845,
+          "percentual_finalizadas": 86.51,
+          "media_dias_finalizadas": 9.26
+        },
+        {
+          "distrito": "São Mateus",
+          "solicitacoes": 809,
+          "percentual_finalizadas": 83.81,
+          "media_dias_finalizadas": 5.98
+        },
+        {
+          "distrito": "Penha",
+          "solicitacoes": 788,
+          "percentual_finalizadas": 84.14,
+          "media_dias_finalizadas": 5.2
+        },
+        {
+          "distrito": "Vila Curuçá",
+          "solicitacoes": 762,
+          "percentual_finalizadas": 86.35,
+          "media_dias_finalizadas": 8.8
+        },
+        {
+          "distrito": "Cursino",
+          "solicitacoes": 747,
+          "percentual_finalizadas": 84.74,
+          "media_dias_finalizadas": 7.61
+        },
+        {
+          "distrito": "Belém",
+          "solicitacoes": 743,
+          "percentual_finalizadas": 92.33,
+          "media_dias_finalizadas": 5.18
+        },
+        {
+          "distrito": "Mandaqui",
+          "solicitacoes": 708,
+          "percentual_finalizadas": 84.75,
+          "media_dias_finalizadas": 4.82
+        },
+        {
+          "distrito": "Ipiranga",
+          "solicitacoes": 703,
+          "percentual_finalizadas": 84.07,
+          "media_dias_finalizadas": 9.05
+        },
+        {
+          "distrito": "Vila Formosa",
+          "solicitacoes": 697,
+          "percentual_finalizadas": 88.38,
+          "media_dias_finalizadas": 8.24
+        },
+        {
+          "distrito": "Cangaiba",
+          "solicitacoes": 693,
+          "percentual_finalizadas": 88.6,
+          "media_dias_finalizadas": 4.68
+        },
+        {
+          "distrito": "Ermelino Matarazzo",
+          "solicitacoes": 667,
+          "percentual_finalizadas": 87.71,
+          "media_dias_finalizadas": 7.57
+        },
+        {
+          "distrito": "Vila Prudente",
+          "solicitacoes": 648,
+          "percentual_finalizadas": 82.56,
+          "media_dias_finalizadas": 8.04
+        },
+        {
+          "distrito": "Vila Jacuí",
+          "solicitacoes": 648,
+          "percentual_finalizadas": 89.66,
+          "media_dias_finalizadas": 3.18
+        },
+        {
+          "distrito": "Vila Mariana",
+          "solicitacoes": 633,
+          "percentual_finalizadas": 73.3,
+          "media_dias_finalizadas": 22.2
+        },
+        {
+          "distrito": "Ponte Rasa",
+          "solicitacoes": 632,
+          "percentual_finalizadas": 84.02,
+          "media_dias_finalizadas": 8.86
+        },
+        {
+          "distrito": "Freguesia do Ó",
+          "solicitacoes": 629,
+          "percentual_finalizadas": 91.73,
+          "media_dias_finalizadas": 9.94
+        },
+        {
+          "distrito": "Santo Amaro",
+          "solicitacoes": 623,
+          "percentual_finalizadas": 78.97,
+          "media_dias_finalizadas": 10.59
+        },
+        {
+          "distrito": "Santana",
+          "solicitacoes": 611,
+          "percentual_finalizadas": 76.1,
+          "media_dias_finalizadas": 5.64
+        },
+        {
+          "distrito": "Vila Maria",
+          "solicitacoes": 601,
+          "percentual_finalizadas": 90.52,
+          "media_dias_finalizadas": 9.99
+        },
+        {
+          "distrito": "Perdizes",
+          "solicitacoes": 601,
+          "percentual_finalizadas": 68.22,
+          "media_dias_finalizadas": 11.09
+        },
+        {
+          "distrito": "Tucuruvi",
+          "solicitacoes": 588,
+          "percentual_finalizadas": 81.46,
+          "media_dias_finalizadas": 6.41
+        },
+        {
+          "distrito": "Itaim Bibi",
+          "solicitacoes": 581,
+          "percentual_finalizadas": 78.49,
+          "media_dias_finalizadas": 10.91
+        },
+        {
+          "distrito": "São Lucas",
+          "solicitacoes": 573,
+          "percentual_finalizadas": 87.09,
+          "media_dias_finalizadas": 7.09
+        },
+        {
+          "distrito": "Cidade Tiradentes",
+          "solicitacoes": 573,
+          "percentual_finalizadas": 77.66,
+          "media_dias_finalizadas": 6.51
+        },
+        {
+          "distrito": "José Bonifácio",
+          "solicitacoes": 565,
+          "percentual_finalizadas": 81.06,
+          "media_dias_finalizadas": 8.7
+        },
+        {
+          "distrito": "Rio Pequeno",
+          "solicitacoes": 560,
+          "percentual_finalizadas": 82.86,
+          "media_dias_finalizadas": 12.35
+        },
+        {
+          "distrito": "Aricanduva",
+          "solicitacoes": 538,
+          "percentual_finalizadas": 84.57,
+          "media_dias_finalizadas": 8.0
+        },
+        {
+          "distrito": "Casa Verde",
+          "solicitacoes": 537,
+          "percentual_finalizadas": 85.1,
+          "media_dias_finalizadas": 8.24
+        },
+        {
+          "distrito": "Vila Matilde",
+          "solicitacoes": 524,
+          "percentual_finalizadas": 83.59,
+          "media_dias_finalizadas": 9.42
+        },
+        {
+          "distrito": "São Miguel",
+          "solicitacoes": 523,
+          "percentual_finalizadas": 90.06,
+          "media_dias_finalizadas": 3.93
+        },
+        {
+          "distrito": "Pedreira",
+          "solicitacoes": 522,
+          "percentual_finalizadas": 81.61,
+          "media_dias_finalizadas": 8.74
+        },
+        {
+          "distrito": "Campo Grande",
+          "solicitacoes": 518,
+          "percentual_finalizadas": 83.01,
+          "media_dias_finalizadas": 10.7
+        },
+        {
+          "distrito": "Parelheiros",
+          "solicitacoes": 513,
+          "percentual_finalizadas": 87.91,
+          "media_dias_finalizadas": 2.77
+        },
+        {
+          "distrito": "Limão",
+          "solicitacoes": 510,
+          "percentual_finalizadas": 85.69,
+          "media_dias_finalizadas": 4.8
+        },
+        {
+          "distrito": "Jardim Helena",
+          "solicitacoes": 506,
+          "percentual_finalizadas": 93.87,
+          "media_dias_finalizadas": 4.35
+        },
+        {
+          "distrito": "São Domingos",
+          "solicitacoes": 495,
+          "percentual_finalizadas": 85.45,
+          "media_dias_finalizadas": 9.7
+        },
+        {
+          "distrito": "Liberdade",
+          "solicitacoes": 478,
+          "percentual_finalizadas": 90.38,
+          "media_dias_finalizadas": 3.77
+        },
+        {
+          "distrito": "Campo Belo",
+          "solicitacoes": 468,
+          "percentual_finalizadas": 73.93,
+          "media_dias_finalizadas": 11.64
+        },
+        {
+          "distrito": "Artur Alvim",
+          "solicitacoes": 465,
+          "percentual_finalizadas": 84.52,
+          "media_dias_finalizadas": 5.6
+        },
+        {
+          "distrito": "Vila Sônia",
+          "solicitacoes": 461,
+          "percentual_finalizadas": 73.75,
+          "media_dias_finalizadas": 15.88
+        },
+        {
+          "distrito": "Mooca",
+          "solicitacoes": 457,
+          "percentual_finalizadas": 86.43,
+          "media_dias_finalizadas": 12.04
+        },
+        {
+          "distrito": "Pinheiros",
+          "solicitacoes": 453,
+          "percentual_finalizadas": 74.61,
+          "media_dias_finalizadas": 10.22
+        },
+        {
+          "distrito": "Parque do Carmo",
+          "solicitacoes": 453,
+          "percentual_finalizadas": 78.81,
+          "media_dias_finalizadas": 10.99
+        },
+        {
+          "distrito": "Socorro",
+          "solicitacoes": 447,
+          "percentual_finalizadas": 85.68,
+          "media_dias_finalizadas": 7.0
+        },
+        {
+          "distrito": "Raposo Tavares",
+          "solicitacoes": 445,
+          "percentual_finalizadas": 80.45,
+          "media_dias_finalizadas": 10.6
+        },
+        {
+          "distrito": "Guaianases",
+          "solicitacoes": 444,
+          "percentual_finalizadas": 93.92,
+          "media_dias_finalizadas": 4.08
+        },
+        {
+          "distrito": "Tatuapé",
+          "solicitacoes": 440,
+          "percentual_finalizadas": 79.77,
+          "media_dias_finalizadas": 21.51
+        },
+        {
+          "distrito": "Água Rasa",
+          "solicitacoes": 428,
+          "percentual_finalizadas": 75.0,
+          "media_dias_finalizadas": 8.92
+        },
+        {
+          "distrito": "Lapa",
+          "solicitacoes": 427,
+          "percentual_finalizadas": 70.02,
+          "media_dias_finalizadas": 17.95
+        },
+        {
+          "distrito": "Iguatemi",
+          "solicitacoes": 423,
+          "percentual_finalizadas": 80.61,
+          "media_dias_finalizadas": 8.8
+        },
+        {
+          "distrito": "Cambuci",
+          "solicitacoes": 421,
+          "percentual_finalizadas": 92.4,
+          "media_dias_finalizadas": 3.71
+        },
+        {
+          "distrito": "Santa Cecília",
+          "solicitacoes": 413,
+          "percentual_finalizadas": 85.47,
+          "media_dias_finalizadas": 4.4
+        },
+        {
+          "distrito": "Butantã",
+          "solicitacoes": 399,
+          "percentual_finalizadas": 72.68,
+          "media_dias_finalizadas": 21.83
+        },
+        {
+          "distrito": "Carrão",
+          "solicitacoes": 396,
+          "percentual_finalizadas": 84.6,
+          "media_dias_finalizadas": 12.43
+        },
+        {
+          "distrito": "Vila Guilherme",
+          "solicitacoes": 374,
+          "percentual_finalizadas": 88.24,
+          "media_dias_finalizadas": 9.9
+        },
+        {
+          "distrito": "São Rafael",
+          "solicitacoes": 365,
+          "percentual_finalizadas": 76.71,
+          "media_dias_finalizadas": 8.16
+        },
+        {
+          "distrito": "Moema",
+          "solicitacoes": 331,
+          "percentual_finalizadas": 74.02,
+          "media_dias_finalizadas": 24.81
+        },
+        {
+          "distrito": "República",
+          "solicitacoes": 327,
+          "percentual_finalizadas": 89.3,
+          "media_dias_finalizadas": 3.4
+        },
+        {
+          "distrito": "Jardim Paulista",
+          "solicitacoes": 310,
+          "percentual_finalizadas": 64.52,
+          "media_dias_finalizadas": 13.5
+        },
+        {
+          "distrito": "Vila Andrade",
+          "solicitacoes": 308,
+          "percentual_finalizadas": 72.08,
+          "media_dias_finalizadas": 16.01
+        },
+        {
+          "distrito": "Alto de Pinheiros",
+          "solicitacoes": 303,
+          "percentual_finalizadas": 80.2,
+          "media_dias_finalizadas": 13.88
+        },
+        {
+          "distrito": "Consolação",
+          "solicitacoes": 295,
+          "percentual_finalizadas": 78.31,
+          "media_dias_finalizadas": 6.12
+        },
+        {
+          "distrito": "Perus",
+          "solicitacoes": 282,
+          "percentual_finalizadas": 89.72,
+          "media_dias_finalizadas": 4.82
+        },
+        {
+          "distrito": "Morumbi",
+          "solicitacoes": 264,
+          "percentual_finalizadas": 81.06,
+          "media_dias_finalizadas": 20.79
+        },
+        {
+          "distrito": "Bela Vista",
+          "solicitacoes": 220,
+          "percentual_finalizadas": 84.09,
+          "media_dias_finalizadas": 5.61
+        },
+        {
+          "distrito": "Anhanguera",
+          "solicitacoes": 210,
+          "percentual_finalizadas": 84.76,
+          "media_dias_finalizadas": 4.47
+        },
+        {
+          "distrito": "Jaguaré",
+          "solicitacoes": 204,
+          "percentual_finalizadas": 69.12,
+          "media_dias_finalizadas": 10.36
+        },
+        {
+          "distrito": "Pari",
+          "solicitacoes": 191,
+          "percentual_finalizadas": 85.34,
+          "media_dias_finalizadas": 2.8
+        },
+        {
+          "distrito": "Vila Leopoldina",
+          "solicitacoes": 183,
+          "percentual_finalizadas": 65.57,
+          "media_dias_finalizadas": 17.82
+        },
+        {
+          "distrito": "Bom Retiro",
+          "solicitacoes": 182,
+          "percentual_finalizadas": 86.26,
+          "media_dias_finalizadas": 5.07
+        },
+        {
+          "distrito": "Brás",
+          "solicitacoes": 174,
+          "percentual_finalizadas": 84.48,
+          "media_dias_finalizadas": 6.82
+        },
+        {
+          "distrito": "Sé",
+          "solicitacoes": 162,
+          "percentual_finalizadas": 89.51,
+          "media_dias_finalizadas": 2.99
+        },
+        {
+          "distrito": "Barra Funda",
+          "solicitacoes": 159,
+          "percentual_finalizadas": 76.1,
+          "media_dias_finalizadas": 8.62
+        },
+        {
+          "distrito": "Jaguara",
+          "solicitacoes": 117,
+          "percentual_finalizadas": 82.05,
+          "media_dias_finalizadas": 9.21
+        },
+        {
+          "distrito": "Marsilac",
+          "solicitacoes": 23,
+          "percentual_finalizadas": 91.3,
+          "media_dias_finalizadas": 9.52
+        }
+      ]
+    },
+    "q4_chuva": {
+      "sql_local": "SELECT CASE WHEN chuva_mm IS NULL THEN 'sem_dado' WHEN chuva_mm>=10 THEN '10mm_ou_mais' ELSE 'menos_10mm' END AS faixa_chuva,count(*) AS solicitacoes FROM fato GROUP BY 1",
+      "rows": [
+        {
+          "faixa_chuva": "10mm_ou_mais",
+          "solicitacoes": 7583
+        },
+        {
+          "faixa_chuva": "menos_10mm",
+          "solicitacoes": 52783
+        }
+      ]
+    },
+    "q5_abertas": {
+      "sql_local": "SELECT distrito,count(*) AS solicitacoes_nao_finalizadas FROM fato WHERE lower(status_original) IN ('aberta','aberto','em andamento') GROUP BY distrito ORDER BY solicitacoes_nao_finalizadas DESC",
+      "rows": [
+        {
+          "distrito": "Itaquera",
+          "solicitacoes_nao_finalizadas": 237
+        },
+        {
+          "distrito": "Cidade Ademar",
+          "solicitacoes_nao_finalizadas": 223
+        },
+        {
+          "distrito": "Capão Redondo",
+          "solicitacoes_nao_finalizadas": 214
+        },
+        {
+          "distrito": "Perdizes",
+          "solicitacoes_nao_finalizadas": 190
+        },
+        {
+          "distrito": "Cidade Lider",
+          "solicitacoes_nao_finalizadas": 170
+        },
+        {
+          "distrito": "Vila Mariana",
+          "solicitacoes_nao_finalizadas": 168
+        },
+        {
+          "distrito": "Sapopemba",
+          "solicitacoes_nao_finalizadas": 162
+        },
+        {
+          "distrito": "Sacomã",
+          "solicitacoes_nao_finalizadas": 162
+        },
+        {
+          "distrito": "Campo Limpo",
+          "solicitacoes_nao_finalizadas": 158
+        },
+        {
+          "distrito": "Jaraguá",
+          "solicitacoes_nao_finalizadas": 153
+        },
+        {
+          "distrito": "Grajaú",
+          "solicitacoes_nao_finalizadas": 150
+        },
+        {
+          "distrito": "Jaçanã",
+          "solicitacoes_nao_finalizadas": 148
+        },
+        {
+          "distrito": "Jardim São Luís",
+          "solicitacoes_nao_finalizadas": 146
+        },
+        {
+          "distrito": "Santana",
+          "solicitacoes_nao_finalizadas": 142
+        },
+        {
+          "distrito": "Tremembé",
+          "solicitacoes_nao_finalizadas": 138
+        },
+        {
+          "distrito": "Vila Medeiros",
+          "solicitacoes_nao_finalizadas": 133
+        },
+        {
+          "distrito": "Cidade Dutra",
+          "solicitacoes_nao_finalizadas": 133
+        },
+        {
+          "distrito": "Santo Amaro",
+          "solicitacoes_nao_finalizadas": 131
+        },
+        {
+          "distrito": "Saúde",
+          "solicitacoes_nao_finalizadas": 127
+        },
+        {
+          "distrito": "Cidade Tiradentes",
+          "solicitacoes_nao_finalizadas": 127
+        },
+        {
+          "distrito": "Lapa",
+          "solicitacoes_nao_finalizadas": 126
+        },
+        {
+          "distrito": "São Mateus",
+          "solicitacoes_nao_finalizadas": 125
+        },
+        {
+          "distrito": "Penha",
+          "solicitacoes_nao_finalizadas": 124
+        },
+        {
+          "distrito": "Itaim Bibi",
+          "solicitacoes_nao_finalizadas": 124
+        },
+        {
+          "distrito": "Vila Sônia",
+          "solicitacoes_nao_finalizadas": 121
+        },
+        {
+          "distrito": "Campo Belo",
+          "solicitacoes_nao_finalizadas": 121
+        },
+        {
+          "distrito": "Pinheiros",
+          "solicitacoes_nao_finalizadas": 115
+        },
+        {
+          "distrito": "Jardim Ângela",
+          "solicitacoes_nao_finalizadas": 115
+        },
+        {
+          "distrito": "Pirituba",
+          "solicitacoes_nao_finalizadas": 113
+        },
+        {
+          "distrito": "Ipiranga",
+          "solicitacoes_nao_finalizadas": 112
+        },
+        {
+          "distrito": "Vila Prudente",
+          "solicitacoes_nao_finalizadas": 110
+        },
+        {
+          "distrito": "Jabaquara",
+          "solicitacoes_nao_finalizadas": 110
+        },
+        {
+          "distrito": "Itaim Paulista",
+          "solicitacoes_nao_finalizadas": 110
+        },
+        {
+          "distrito": "Cursino",
+          "solicitacoes_nao_finalizadas": 110
+        },
+        {
+          "distrito": "Tucuruvi",
+          "solicitacoes_nao_finalizadas": 109
+        },
+        {
+          "distrito": "Jardim Paulista",
+          "solicitacoes_nao_finalizadas": 109
+        },
+        {
+          "distrito": "Mandaqui",
+          "solicitacoes_nao_finalizadas": 107
+        },
+        {
+          "distrito": "José Bonifácio",
+          "solicitacoes_nao_finalizadas": 107
+        },
+        {
+          "distrito": "Butantã",
+          "solicitacoes_nao_finalizadas": 107
+        },
+        {
+          "distrito": "Água Rasa",
+          "solicitacoes_nao_finalizadas": 104
+        },
+        {
+          "distrito": "Vila Curuçá",
+          "solicitacoes_nao_finalizadas": 104
+        },
+        {
+          "distrito": "Ponte Rasa",
+          "solicitacoes_nao_finalizadas": 100
+        },
+        {
+          "distrito": "Cachoeirinha",
+          "solicitacoes_nao_finalizadas": 98
+        },
+        {
+          "distrito": "Parque do Carmo",
+          "solicitacoes_nao_finalizadas": 96
+        },
+        {
+          "distrito": "Rio Pequeno",
+          "solicitacoes_nao_finalizadas": 95
+        },
+        {
+          "distrito": "Pedreira",
+          "solicitacoes_nao_finalizadas": 94
+        },
+        {
+          "distrito": "Tatuapé",
+          "solicitacoes_nao_finalizadas": 88
+        },
+        {
+          "distrito": "Raposo Tavares",
+          "solicitacoes_nao_finalizadas": 87
+        },
+        {
+          "distrito": "Campo Grande",
+          "solicitacoes_nao_finalizadas": 87
+        },
+        {
+          "distrito": "Vila Matilde",
+          "solicitacoes_nao_finalizadas": 86
+        },
+        {
+          "distrito": "Moema",
+          "solicitacoes_nao_finalizadas": 86
+        },
+        {
+          "distrito": "Vila Andrade",
+          "solicitacoes_nao_finalizadas": 85
+        },
+        {
+          "distrito": "São Rafael",
+          "solicitacoes_nao_finalizadas": 84
+        },
+        {
+          "distrito": "Iguatemi",
+          "solicitacoes_nao_finalizadas": 82
+        },
+        {
+          "distrito": "Vila Formosa",
+          "solicitacoes_nao_finalizadas": 81
+        },
+        {
+          "distrito": "Ermelino Matarazzo",
+          "solicitacoes_nao_finalizadas": 81
+        },
+        {
+          "distrito": "Aricanduva",
+          "solicitacoes_nao_finalizadas": 81
+        },
+        {
+          "distrito": "Casa Verde",
+          "solicitacoes_nao_finalizadas": 80
+        },
+        {
+          "distrito": "Cangaiba",
+          "solicitacoes_nao_finalizadas": 76
+        },
+        {
+          "distrito": "São Lucas",
+          "solicitacoes_nao_finalizadas": 74
+        },
+        {
+          "distrito": "Artur Alvim",
+          "solicitacoes_nao_finalizadas": 72
+        },
+        {
+          "distrito": "São Domingos",
+          "solicitacoes_nao_finalizadas": 71
+        },
+        {
+          "distrito": "Limão",
+          "solicitacoes_nao_finalizadas": 70
+        },
+        {
+          "distrito": "Brasilândia",
+          "solicitacoes_nao_finalizadas": 70
+        },
+        {
+          "distrito": "Vila Jacuí",
+          "solicitacoes_nao_finalizadas": 66
+        },
+        {
+          "distrito": "Vila Leopoldina",
+          "solicitacoes_nao_finalizadas": 63
+        },
+        {
+          "distrito": "Socorro",
+          "solicitacoes_nao_finalizadas": 63
+        },
+        {
+          "distrito": "Jaguaré",
+          "solicitacoes_nao_finalizadas": 62
+        },
+        {
+          "distrito": "Consolação",
+          "solicitacoes_nao_finalizadas": 62
+        },
+        {
+          "distrito": "Parelheiros",
+          "solicitacoes_nao_finalizadas": 61
+        },
+        {
+          "distrito": "Mooca",
+          "solicitacoes_nao_finalizadas": 61
+        },
+        {
+          "distrito": "Santa Cecília",
+          "solicitacoes_nao_finalizadas": 59
+        },
+        {
+          "distrito": "Carrão",
+          "solicitacoes_nao_finalizadas": 59
+        },
+        {
+          "distrito": "Alto de Pinheiros",
+          "solicitacoes_nao_finalizadas": 59
+        },
+        {
+          "distrito": "Vila Maria",
+          "solicitacoes_nao_finalizadas": 57
+        },
+        {
+          "distrito": "Belém",
+          "solicitacoes_nao_finalizadas": 56
+        },
+        {
+          "distrito": "São Miguel",
+          "solicitacoes_nao_finalizadas": 52
+        },
+        {
+          "distrito": "Morumbi",
+          "solicitacoes_nao_finalizadas": 50
+        },
+        {
+          "distrito": "Freguesia do Ó",
+          "solicitacoes_nao_finalizadas": 50
+        },
+        {
+          "distrito": "Liberdade",
+          "solicitacoes_nao_finalizadas": 45
+        },
+        {
+          "distrito": "Vila Guilherme",
+          "solicitacoes_nao_finalizadas": 43
+        },
+        {
+          "distrito": "Barra Funda",
+          "solicitacoes_nao_finalizadas": 38
+        },
+        {
+          "distrito": "Bela Vista",
+          "solicitacoes_nao_finalizadas": 35
+        },
+        {
+          "distrito": "República",
+          "solicitacoes_nao_finalizadas": 34
+        },
+        {
+          "distrito": "Lajeado",
+          "solicitacoes_nao_finalizadas": 34
+        },
+        {
+          "distrito": "Cambuci",
+          "solicitacoes_nao_finalizadas": 32
+        },
+        {
+          "distrito": "Anhanguera",
+          "solicitacoes_nao_finalizadas": 32
+        },
+        {
+          "distrito": "Perus",
+          "solicitacoes_nao_finalizadas": 29
+        },
+        {
+          "distrito": "Jardim Helena",
+          "solicitacoes_nao_finalizadas": 29
+        },
+        {
+          "distrito": "Pari",
+          "solicitacoes_nao_finalizadas": 28
+        },
+        {
+          "distrito": "Brás",
+          "solicitacoes_nao_finalizadas": 27
+        },
+        {
+          "distrito": "Guaianases",
+          "solicitacoes_nao_finalizadas": 25
+        },
+        {
+          "distrito": "Bom Retiro",
+          "solicitacoes_nao_finalizadas": 24
+        },
+        {
+          "distrito": "Jaguara",
+          "solicitacoes_nao_finalizadas": 20
+        },
+        {
+          "distrito": "Sé",
+          "solicitacoes_nao_finalizadas": 16
+        },
+        {
+          "distrito": "Marsilac",
+          "solicitacoes_nao_finalizadas": 2
+        }
+      ]
+    }
+  }
+}

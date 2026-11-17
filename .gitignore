@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+runtime/
+bigdata/chegada/
+bigdata/cache/
+bigdata/exportacao/
+*.sqlite
+*.log
+*.pdf
+# Metadados privados do workspace ficam apenas no pacote local de evidências.
+bigdata/evidencias/databricks/run_*.json
+bigdata/evidencias/databricks/output_*.json
+bigdata/evidencias/databricks/notebook_*.html
+!docs/Passo_Livre_Big_Data_PRELIMINAR.pdf

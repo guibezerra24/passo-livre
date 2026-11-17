@@ -1,0 +1,294 @@
+{
+  "revisor": "Assistente de desenvolvimento; revisão assistida, não avaliação humana independente",
+  "criterio": "Resposta correta no gabarito e sem complemento relevante não sustentado; revisar com a equipe antes da entrega.",
+  "linhas": [
+    {
+      "modo": "sem_contexto",
+      "id": "T01",
+      "correta_e_fundamentada_no_recorte": false,
+      "nota": "Falha no gabarito, recusa indevida ou contrato."
+    },
+    {
+      "modo": "sem_contexto",
+      "id": "T02",
+      "correta_e_fundamentada_no_recorte": false,
+      "nota": "Falha no gabarito, recusa indevida ou contrato."
+    },
+    {
+      "modo": "sem_contexto",
+      "id": "T03",
+      "correta_e_fundamentada_no_recorte": false,
+      "nota": "Falha no gabarito, recusa indevida ou contrato."
+    },
+    {
+      "modo": "sem_contexto",
+      "id": "T04",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "sem_contexto",
+      "id": "T05",
+      "correta_e_fundamentada_no_recorte": false,
+      "nota": "Falha no gabarito, recusa indevida ou contrato."
+    },
+    {
+      "modo": "sem_contexto",
+      "id": "T06",
+      "correta_e_fundamentada_no_recorte": false,
+      "nota": "Falha no gabarito, recusa indevida ou contrato."
+    },
+    {
+      "modo": "sem_contexto",
+      "id": "T07",
+      "correta_e_fundamentada_no_recorte": false,
+      "nota": "Falha no gabarito, recusa indevida ou contrato."
+    },
+    {
+      "modo": "sem_contexto",
+      "id": "T08",
+      "correta_e_fundamentada_no_recorte": false,
+      "nota": "Falha no gabarito, recusa indevida ou contrato."
+    },
+    {
+      "modo": "sem_contexto",
+      "id": "T09",
+      "correta_e_fundamentada_no_recorte": false,
+      "nota": "Falha no gabarito, recusa indevida ou contrato."
+    },
+    {
+      "modo": "sem_contexto",
+      "id": "T10",
+      "correta_e_fundamentada_no_recorte": false,
+      "nota": "Falha no gabarito, recusa indevida ou contrato."
+    },
+    {
+      "modo": "sem_contexto",
+      "id": "T11",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "sem_contexto",
+      "id": "T12",
+      "correta_e_fundamentada_no_recorte": false,
+      "nota": "Falha no gabarito, recusa indevida ou contrato."
+    },
+    {
+      "modo": "sem_contexto",
+      "id": "T13",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "sem_contexto",
+      "id": "T14",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "sem_contexto",
+      "id": "T15",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "sem_contexto",
+      "id": "T16",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "rag",
+      "id": "T01",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "rag",
+      "id": "T02",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "rag",
+      "id": "T03",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "rag",
+      "id": "T04",
+      "correta_e_fundamentada_no_recorte": false,
+      "nota": "Falha no gabarito, recusa indevida ou contrato."
+    },
+    {
+      "modo": "rag",
+      "id": "T05",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "rag",
+      "id": "T06",
+      "correta_e_fundamentada_no_recorte": false,
+      "nota": "Acerto por conceitos, mas contém complemento não apoiado ou atribuição incorreta da limitação."
+    },
+    {
+      "modo": "rag",
+      "id": "T07",
+      "correta_e_fundamentada_no_recorte": false,
+      "nota": "Acerto por conceitos, mas contém complemento não apoiado ou atribuição incorreta da limitação."
+    },
+    {
+      "modo": "rag",
+      "id": "T08",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "rag",
+      "id": "T09",
+      "correta_e_fundamentada_no_recorte": false,
+      "nota": "Falha no gabarito, recusa indevida ou contrato."
+    },
+    {
+      "modo": "rag",
+      "id": "T10",
+      "correta_e_fundamentada_no_recorte": false,
+      "nota": "Falha no gabarito, recusa indevida ou contrato."
+    },
+    {
+      "modo": "rag",
+      "id": "T11",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "rag",
+      "id": "T12",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "rag",
+      "id": "T13",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "rag",
+      "id": "T14",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "rag",
+      "id": "T15",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "rag",
+      "id": "T16",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "agente",
+      "id": "T01",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "agente",
+      "id": "T02",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "agente",
+      "id": "T03",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "agente",
+      "id": "T04",
+      "correta_e_fundamentada_no_recorte": false,
+      "nota": "Falha no gabarito, recusa indevida ou contrato."
+    },
+    {
+      "modo": "agente",
+      "id": "T05",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "agente",
+      "id": "T06",
+      "correta_e_fundamentada_no_recorte": false,
+      "nota": "Acerto por conceitos, mas contém complemento não apoiado ou atribuição incorreta da limitação."
+    },
+    {
+      "modo": "agente",
+      "id": "T07",
+      "correta_e_fundamentada_no_recorte": false,
+      "nota": "Acerto por conceitos, mas contém complemento não apoiado ou atribuição incorreta da limitação."
+    },
+    {
+      "modo": "agente",
+      "id": "T08",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "agente",
+      "id": "T09",
+      "correta_e_fundamentada_no_recorte": false,
+      "nota": "Falha no gabarito, recusa indevida ou contrato."
+    },
+    {
+      "modo": "agente",
+      "id": "T10",
+      "correta_e_fundamentada_no_recorte": false,
+      "nota": "Falha no gabarito, recusa indevida ou contrato."
+    },
+    {
+      "modo": "agente",
+      "id": "T11",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "agente",
+      "id": "T12",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "agente",
+      "id": "T13",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "agente",
+      "id": "T14",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "agente",
+      "id": "T15",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    },
+    {
+      "modo": "agente",
+      "id": "T16",
+      "correta_e_fundamentada_no_recorte": true,
+      "nota": "Compatível com gabarito no recorte documental."
+    }
+  ]
+}

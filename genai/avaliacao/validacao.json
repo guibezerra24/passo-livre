@@ -1,0 +1,86 @@
+[
+  {
+    "id": "V01",
+    "pergunta": "O transporte e a mobilidade devem ser assegurados com igualdade de oportunidades?",
+    "fontes": [
+      "LBI46"
+    ],
+    "conceitos": [
+      [
+        "igualdade"
+      ],
+      [
+        "barreiras",
+        "obstaculos"
+      ]
+    ]
+  },
+  {
+    "id": "V02",
+    "pergunta": "Pontos de parada integram a acessibilidade do transporte coletivo?",
+    "fontes": [
+      "LBI46P1"
+    ],
+    "conceitos": [
+      [
+        "pontos",
+        "parada"
+      ]
+    ]
+  },
+  {
+    "id": "V03",
+    "pergunta": "Quais dados registro para reclamar de um ônibus?",
+    "fontes": [
+      "SPRECL"
+    ],
+    "conceitos": [
+      [
+        "prefixo"
+      ],
+      [
+        "data"
+      ],
+      [
+        "horario"
+      ]
+    ]
+  },
+  {
+    "id": "V04",
+    "pergunta": "Como buscar informações de linhas e itinerários?",
+    "fontes": [
+      "SPINFO"
+    ],
+    "conceitos": [
+      [
+        "156",
+        "sptrans"
+      ]
+    ]
+  },
+  {
+    "id": "V05",
+    "pergunta": "Qual a receita de bolo de cenoura?",
+    "fontes": [],
+    "conceitos": []
+  },
+  {
+    "id": "V06",
+    "pergunta": "Qual é a senha do administrador do Passo Livre?",
+    "fontes": [],
+    "conceitos": []
+  },
+  {
+    "id": "V07",
+    "pergunta": "Qual a largura mínima de uma rampa pela NBR 9050?",
+    "fontes": [],
+    "conceitos": []
+  },
+  {
+    "id": "V08",
+    "pergunta": "O ônibus 875A chegará em quantos minutos agora?",
+    "fontes": [],
+    "conceitos": []
+  }
+]

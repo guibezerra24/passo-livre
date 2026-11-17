@@ -1,0 +1,12 @@
+{
+  "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-23.5505&longitude=-46.6333&start_date=2026-04-01&end_date=2026-06-30&daily=temperature_2m_max%2Cprecipitation_sum&timezone=America%2FSao_Paulo",
+  "licenca": "CC BY 4.0 - Open-Meteo",
+  "papel": "Contexto meteorológico agregado; não é chuva medida em cada calçada",
+  "fonte": "clima",
+  "coletado_em_utc": "2026-11-17T11:43:58.976950+00:00",
+  "lote_id": "20261117T114358976959Z",
+  "linhas": 91,
+  "arquivo": "bigdata\\chegada\\clima\\clima_20261117T114358976959Z.jsonl",
+  "sha256": "538aca6b3b5c175e975a3b719ffe4bbf78059655f533585df39489033a407614",
+  "data_coleta_nao_e_data_referencia": true
+}

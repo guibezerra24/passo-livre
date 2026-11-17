@@ -1,0 +1,18 @@
+{
+  "url": "https://dados.prefeitura.sp.gov.br/dataset/0aecfa2b-aa3a-40d4-8183-0d4351b7fd0a/resource/368eb32d-ef25-4441-be8f-fce0146575a1/download/arquivo-final-2-trim-26.csv",
+  "recurso_id": "368eb32d-ef25-4441-be8f-fce0146575a1",
+  "licenca": "Creative Commons CCZero",
+  "linhas_lidas": 463686,
+  "arquivo_original_sha256": "bfbf5648a32e97642058645f91b6106253abad00ec96c72a86c67edafee6c9d8",
+  "encoding": "cp1252",
+  "filtro": "assunto/serviço contém calcad, rampa, acessibilidade, entulho ou passeio publico; sem acentos",
+  "periodo_referencia": "2026-04-01 a 2026-06-30",
+  "chave_limite": "UUID do recurso + posição da linha; não é protocolo. Reordenação de republicação exige reconciliação.",
+  "fonte": "sp156",
+  "coletado_em_utc": "2026-11-17T12:00:37.119896+00:00",
+  "lote_id": "20261117T120037119913Z",
+  "linhas": 60466,
+  "arquivo": "bigdata/chegada/sp156/sp156_20261117T120037119913Z.jsonl",
+  "sha256": "fa3a442b37cd493c896ecf0f9298548a6d7ffc434c1c3047376773ca15ec1117",
+  "data_coleta_nao_e_data_referencia": true
+}

@@ -1,0 +1,1034 @@
+[
+  {
+    "id": "T01",
+    "modo": "sem_contexto",
+    "pergunta": "Qual direito ao transporte a pessoa com mobilidade reduzida possui?",
+    "gabarito": {
+      "id": "T01",
+      "pergunta": "Qual direito ao transporte a pessoa com mobilidade reduzida possui?",
+      "fontes": [
+        "LBI46"
+      ],
+      "conceitos": [
+        [
+          "igualdade"
+        ],
+        [
+          "barreiras",
+          "obstaculos"
+        ]
+      ]
+    },
+    "answer": {
+      "status": "nao_consta",
+      "resposta": "O direito ao transporte para pessoas com mobilidade reduzida é geralmente garantido por leis e regulamentos específicos de transporte público. No Brasil, por exemplo, o direito é regulamentado pela Lei nº 11.723 de 2008, que estabelece normas para a acessibilidade em transporte público. Essa lei obriga os transportes públicos a oferecerem serviços acessíveis para pessoas com mobilidade reduzida, incluindo ônibus, metrô, trem e ônibus de aplicativo. Além disso, é importante verificar as normas locais e regionais, pois as leis podem variar dependendo do local. É recomendável consultar a legislação local ou entrar em contato com o órgão responsável pelo transporte público para obter informações mais específicas sobre o direito ao transporte para pessoas com mobilidade reduzida em sua área.",
+      "fontes": []
+    },
+    "raw": "{\"status\": \"nao_consta\", \"resposta\": \"O direito ao transporte para pessoas com mobilidade reduzida é geralmente garantido por leis e regulamentos específicos de transporte público. No Brasil, por exemplo, o direito é regulamentado pela Lei nº 11.723 de 2008, que estabelece normas para a acessibilidade em transporte público. Essa lei obriga os transportes públicos a oferecerem serviços acessíveis para pessoas com mobilidade reduzida, incluindo ônibus, metrô, trem e ônibus de aplicativo. Além disso, é importante verificar as normas locais e regionais, pois as leis podem variar dependendo do local. É recomendável consultar a legislação local ou entrar em contato com o órgão responsável pelo transporte público para obter informações mais específicas sobre o direito ao transporte para pessoas com mobilidade reduzida em sua área.\", \"fontes\": []}",
+    "valid_json": true,
+    "attempts": [
+      {
+        "raw": "{\"status\": \"nao_consta\", \"resposta\": \"O direito ao transporte para pessoas com mobilidade reduzida é geralmente garantido por leis e regulamentos específicos de transporte público. No Brasil, por exemplo, o direito é regulamentado pela Lei nº 11.723 de 2008, que estabelece normas para a acessibilidade em transporte público. Essa lei obriga os transportes públicos a oferecerem serviços acessíveis para pessoas com mobilidade reduzida, incluindo ônibus, metrô, trem e ônibus de aplicativo. Além disso, é importante verificar as normas locais e regionais, pois as leis podem variar dependendo do local. É recomendável consultar a legislação local ou entrar em contato com o órgão responsável pelo transporte público para obter informações mais específicas sobre o direito ao transporte para pessoas com mobilidade reduzida em sua área.\", \"fontes\": []}",
+        "meta": {
+          "model": "qwen2.5:1.5b",
+          "eval_count": 215,
+          "prompt_eval_count": 138,
+          "total_duration": 2344076900
+        }
+      }
+    ],
+    "trace": [],
+    "seconds": 2.377,
+    "llm_called": true,
+    "corpus_sha256": "dcb9c0a5b4aef3d4221129fb93844646e0bf9b60a51fce24fd5115dab014ddfe",
+    "metricas": {
+      "acerto_proxy": false,
+      "recusa_esperada": false,
+      "recusou": true,
+      "citacao_correta": false,
+      "resposta_indevida_fora_base": false,
+      "conceitos_presentes": false
+    }
+  },
+  {
+    "id": "T02",
+    "modo": "sem_contexto",
+    "pergunta": "A acessibilidade no transporte coletivo inclui estações e terminais?",
+    "gabarito": {
+      "id": "T02",
+      "pergunta": "A acessibilidade no transporte coletivo inclui estações e terminais?",
+      "fontes": [
+        "LBI46P1"
+      ],
+      "conceitos": [
+        [
+          "estacoes"
+        ],
+        [
+          "terminais"
+        ]
+      ]
+    },
+    "answer": {
+      "status": "nao_consta",
+      "resposta": "Não consta",
+      "fontes": []
+    },
+    "raw": "{\"status\": \"nao_consta\", \"resposta\": \"Não consta\", \"fontes\": []}",
+    "valid_json": true,
+    "attempts": [
+      {
+        "raw": "{\"status\": \"nao_consta\", \"resposta\": \"Não consta\", \"fontes\": []}",
+        "meta": {
+          "model": "qwen2.5:1.5b",
+          "eval_count": 25,
+          "prompt_eval_count": 139,
+          "total_duration": 344561100
+        }
+      }
+    ],
+    "trace": [],
+    "seconds": 0.348,
+    "llm_called": true,
+    "corpus_sha256": "dcb9c0a5b4aef3d4221129fb93844646e0bf9b60a51fce24fd5115dab014ddfe",
+    "metricas": {
+      "acerto_proxy": false,
+      "recusa_esperada": false,
+      "recusou": true,
+      "citacao_correta": false,
+      "resposta_indevida_fora_base": false,
+      "conceitos_presentes": false
+    }
+  },
+  {
+    "id": "T03",
+    "modo": "sem_contexto",
+    "pergunta": "Onde devem ficar as vagas de estacionamento reservadas?",
+    "gabarito": {
+      "id": "T03",
+      "pergunta": "Onde devem ficar as vagas de estacionamento reservadas?",
+      "fontes": [
+        "LBI47"
+      ],
+      "conceitos": [
+        [
+          "proxim",
+          "acessos"
+        ],
+        [
+          "pedestres"
+        ]
+      ]
+    },
+    "answer": {
+      "status": "nao_consta",
+      "resposta": "As vagas de estacionamento reservadas devem ser posicionadas em locais estratégicos e visíveis, geralmente em áreas de pedestres ou em pontos de ônibus. Elas devem ser bem definidas para facilitar a localização dos motoristas e evitar confusão. Além disso, é importante manter a limpeza e organização das vagas para garantir um ambiente seguro e confortável para os motoristas.",
+      "fontes": []
+    },
+    "raw": "{\"status\": \"nao_consta\", \"resposta\": \"As vagas de estacionamento reservadas devem ser posicionadas em locais estratégicos e visíveis, geralmente em áreas de pedestres ou em pontos de ônibus. Elas devem ser bem definidas para facilitar a localização dos motoristas e evitar confusão. Além disso, é importante manter a limpeza e organização das vagas para garantir um ambiente seguro e confortável para os motoristas.\", \"fontes\": []}",
+    "valid_json": true,
+    "attempts": [
+      {
+        "raw": "{\"status\": \"nao_consta\", \"resposta\": \"As vagas de estacionamento reservadas devem ser posicionadas em locais estratégicos e visíveis, geralmente em áreas de pedestres ou em pontos de ônibus. Elas devem ser bem definidas para facilitar a localização dos motoristas e evitar confusão. Além disso, é importante manter a limpeza e organização das vagas para garantir um ambiente seguro e confortável para os motoristas.\", \"fontes\": []}",
+        "meta": {
+          "model": "qwen2.5:1.5b",
+          "eval_count": 115,
+          "prompt_eval_count": 139,
+          "total_duration": 1229825800
+        }
+      }
+    ],
+    "trace": [],
+    "seconds": 1.246,
+    "llm_called": true,
+    "corpus_sha256": "dcb9c0a5b4aef3d4221129fb93844646e0bf9b60a51fce24fd5115dab014ddfe",
+    "metricas": {
+      "acerto_proxy": false,
+      "recusa_esperada": false,
+      "recusou": true,
+      "citacao_correta": false,
+      "resposta_indevida_fora_base": false,
+      "conceitos_presentes": false
+    }
+  },
+  {
+    "id": "T04",
+    "modo": "sem_contexto",
+    "pergunta": "Como a acessibilidade se relaciona à independência e à cidadania?",
+    "gabarito": {
+      "id": "T04",
+      "pergunta": "Como a acessibilidade se relaciona à independência e à cidadania?",
+      "fontes": [
+        "LBI53"
+      ],
+      "conceitos": [
+        [
+          "independen",
+          "autonomia"
+        ],
+        [
+          "cidadania"
+        ]
+      ]
+    },
+    "answer": {
+      "status": "respondido",
+      "resposta": "A acessibilidade se relaciona à independência e à cidadania de várias maneiras. Primeiro, a acessibilidade é um direito fundamental que garante a liberdade de movimento e a participação ativa na sociedade. Isso permite que as pessoas com deficiência ou mobilidade reduzida tenham a mesma capacidade de se comunicar, participar de eventos e realizar atividades cotidianas que as pessoas sem deficiência podem realizar. Isso é essencial para a independência e para a cidadania, pois permite que as pessoas sejam autônomas e ativas na sociedade, sem ter que depender de outros para realizar tarefas básicas. Segundo, a acessibilidade é um passo importante para a cidadania, pois permite que as pessoas com deficiência ou mobilidade reduzida sejam parte ativa da vida social e política. Isso é essencial para a cidadania, pois permite que as pessoas sejam parte ativa da vida política e social, participem de decisões que afetam a sua vida e sejam capazes de expressar suas opiniões e necessidades. Portanto, a acessibilidade é um elemento crucial para a independência e a cidadania, permitindo que as pessoas sejam autônomas, ativas e participantes ativas na sociedade.",
+      "fontes": [
+        "Fonte não encontrada"
+      ]
+    },
+    "raw": "{\n  \"status\": \"respondido\",\n  \"resposta\": \"A acessibilidade se relaciona à independência e à cidadania de várias maneiras. Primeiro, a acessibilidade é um direito fundamental que garante a liberdade de movimento e a participação ativa na sociedade. Isso permite que as pessoas com deficiência ou mobilidade reduzida tenham a mesma capacidade de se comunicar, participar de eventos e realizar atividades cotidianas que as pessoas sem deficiência podem realizar. Isso é essencial para a independência e para a cidadania, pois permite que as pessoas sejam autônomas e ativas na sociedade, sem ter que depender de outros para realizar tarefas básicas. Segundo, a acessibilidade é um passo importante para a cidadania, pois permite que as pessoas com deficiência ou mobilidade reduzida sejam parte ativa da vida social e política. Isso é essencial para a cidadania, pois permite que as pessoas sejam parte ativa da vida política e social, participem de decisões que afetam a sua vida e sejam capazes de expressar suas opiniões e necessidades. Portanto, a acessibilidade é um elemento crucial para a independência e a cidadania, permitindo que as pessoas sejam autônomas, ativas e participantes ativas na sociedade.\",\n  \"fontes\": [\"Fonte não encontrada\"]\n}",
+    "valid_json": true,
+    "attempts": [
+      {
+        "raw": "{\n  \"status\": \"respondido\",\n  \"resposta\": \"A acessibilidade se relaciona à independência e à cidadania de várias maneiras. Primeiro, a acessibilidade é um direito fundamental que garante a liberdade de movimento e a participação ativa na sociedade. Isso permite que as pessoas com deficiência ou mobilidade reduzida tenham a mesma capacidade de se comunicar, participar de eventos e realizar atividades cotidianas que as pessoas sem deficiência podem realizar. Isso é essencial para a independência e para a cidadania, pois permite que as pessoas sejam autônomas e ativas na sociedade, sem ter que depender de outros para realizar tarefas básicas. Segundo, a acessibilidade é um passo importante para a cidadania, pois permite que as pessoas com deficiência ou mobilidade reduzida sejam parte ativa da vida social e política. Isso é essencial para a cidadania, pois permite que as pessoas sejam parte ativa da vida política e social, participem de decisões que afetam a sua vida e sejam capazes de expressar suas opiniões e necessidades. Portanto, a acessibilidade é um elemento crucial para a independência e a cidadania, permitindo que as pessoas sejam autônomas, ativas e participantes ativas na sociedade.\",\n  \"fontes\": [\"Fonte não encontrada\"]\n}",
+        "meta": {
+          "model": "qwen2.5:1.5b",
+          "eval_count": 316,
+          "prompt_eval_count": 139,
+          "total_duration": 3310072700
+        }
+      }
+    ],
+    "trace": [],
+    "seconds": 3.338,
+    "llm_called": true,
+    "corpus_sha256": "dcb9c0a5b4aef3d4221129fb93844646e0bf9b60a51fce24fd5115dab014ddfe",
+    "metricas": {
+      "acerto_proxy": true,
+      "recusa_esperada": false,
+      "recusou": false,
+      "citacao_correta": false,
+      "resposta_indevida_fora_base": false,
+      "conceitos_presentes": true
+    }
+  },
+  {
+    "id": "T05",
+    "modo": "sem_contexto",
+    "pergunta": "Que princípio deve orientar os projetos de transporte e instalações de uso coletivo?",
+    "gabarito": {
+      "id": "T05",
+      "pergunta": "Que princípio deve orientar os projetos de transporte e instalações de uso coletivo?",
+      "fontes": [
+        "LBI55"
+      ],
+      "conceitos": [
+        [
+          "desenho universal"
+        ]
+      ]
+    },
+    "answer": {
+      "status": "nao_consta",
+      "resposta": "Não constam princípios específicos para orientar projetos de transporte e instalações de uso coletivo nos documentos fornecidos.",
+      "fontes": []
+    },
+    "raw": "{\"status\": \"nao_consta\", \"resposta\": \"Não constam princípios específicos para orientar projetos de transporte e instalações de uso coletivo nos documentos fornecidos.\", \"fontes\": []}",
+    "valid_json": true,
+    "attempts": [
+      {
+        "raw": "{\"status\": \"nao_consta\", \"resposta\": \"Não constam princípios específicos para orientar projetos de transporte e instalações de uso coletivo nos documentos fornecidos.\", \"fontes\": []}",
+        "meta": {
+          "model": "qwen2.5:1.5b",
+          "eval_count": 51,
+          "prompt_eval_count": 143,
+          "total_duration": 607988500
+        }
+      }
+    ],
+    "trace": [],
+    "seconds": 0.61,
+    "llm_called": true,
+    "corpus_sha256": "dcb9c0a5b4aef3d4221129fb93844646e0bf9b60a51fce24fd5115dab014ddfe",
+    "metricas": {
+      "acerto_proxy": false,
+      "recusa_esperada": false,
+      "recusou": true,
+      "citacao_correta": false,
+      "resposta_indevida_fora_base": false,
+      "conceitos_presentes": false
+    }
+  },
+  {
+    "id": "T06",
+    "modo": "sem_contexto",
+    "pergunta": "Sites de empresas brasileiras e órgãos de governo devem oferecer acessibilidade?",
+    "gabarito": {
+      "id": "T06",
+      "pergunta": "Sites de empresas brasileiras e órgãos de governo devem oferecer acessibilidade?",
+      "fontes": [
+        "LBI63"
+      ],
+      "conceitos": [
+        [
+          "acessibilidade"
+        ],
+        [
+          "empresas",
+          "governo"
+        ]
+      ]
+    },
+    "answer": {
+      "status": "nao_consta",
+      "resposta": "Não constam informações específicas sobre sites de empresas brasileiras e órgãos de governo oferecendo acessibilidade. É importante lembrar que a acessibilidade é um direito fundamental e muitos países têm regulamentações específicas para garantir essa condição. No Brasil, a Lei 13.146 de 2015 estabelece diretrizes para a acessibilidade das empresas e órgãos públicos, mas a implementação dessas diretrizes pode variar de acordo com as normas locais e regulamentações específicas.",
+      "fontes": []
+    },
+    "raw": "{\"status\": \"nao_consta\", \"resposta\": \"Não constam informações específicas sobre sites de empresas brasileiras e órgãos de governo oferecendo acessibilidade. É importante lembrar que a acessibilidade é um direito fundamental e muitos países têm regulamentações específicas para garantir essa condição. No Brasil, a Lei 13.146 de 2015 estabelece diretrizes para a acessibilidade das empresas e órgãos públicos, mas a implementação dessas diretrizes pode variar de acordo com as normas locais e regulamentações específicas.\", \"fontes\": []}",
+    "valid_json": true,
+    "attempts": [
+      {
+        "raw": "{\"status\": \"nao_consta\", \"resposta\": \"Não constam informações específicas sobre sites de empresas brasileiras e órgãos de governo oferecendo acessibilidade. É importante lembrar que a acessibilidade é um direito fundamental e muitos países têm regulamentações específicas para garantir essa condição. No Brasil, a Lei 13.146 de 2015 estabelece diretrizes para a acessibilidade das empresas e órgãos públicos, mas a implementação dessas diretrizes pode variar de acordo com as normas locais e regulamentações específicas.\", \"fontes\": []}",
+        "meta": {
+          "model": "qwen2.5:1.5b",
+          "eval_count": 141,
+          "prompt_eval_count": 141,
+          "total_duration": 1516445800
+        }
+      }
+    ],
+    "trace": [],
+    "seconds": 1.52,
+    "llm_called": true,
+    "corpus_sha256": "dcb9c0a5b4aef3d4221129fb93844646e0bf9b60a51fce24fd5115dab014ddfe",
+    "metricas": {
+      "acerto_proxy": false,
+      "recusa_esperada": false,
+      "recusou": true,
+      "citacao_correta": false,
+      "resposta_indevida_fora_base": false,
+      "conceitos_presentes": true
+    }
+  },
+  {
+    "id": "T07",
+    "modo": "sem_contexto",
+    "pergunta": "Quais informações preciso fornecer para reclamar de um ônibus na SPTrans?",
+    "gabarito": {
+      "id": "T07",
+      "pergunta": "Quais informações preciso fornecer para reclamar de um ônibus na SPTrans?",
+      "fontes": [
+        "SPRECL"
+      ],
+      "conceitos": [
+        [
+          "prefixo"
+        ],
+        [
+          "data"
+        ],
+        [
+          "horario"
+        ],
+        [
+          "local"
+        ]
+      ]
+    },
+    "answer": {
+      "status": "nao_consta",
+      "resposta": "Não consta: resposta do modelo inválida.",
+      "fontes": []
+    },
+    "raw": "{\n  \"status\": \"nao_consta\",\n  \"resposta\": \"Para reclamar de um ônibus na SPTrans, você precisa fornecer as seguintes informações: 1. Nome completo e número de identificação do usuário. 2. Data e hora do incidente. 3. Detalhes do veículo (placa, modelo, número de identificação). 4. Descrição do problema (por exemplo, atraso, falta de limpeza, danos ao veículo). 5. Se possível, fotos do local do incidente. 6. Informações sobre o veículo (por exemplo, se é novo ou usado). 7. Se você já tentou resolver o problema, incluindo o número do chamado ou o número do serviço de atendimento ao cliente. 8. Se você já tentou resolver o problema, incluindo o número do chamado ou o número do serviço de atendimento ao cliente. 9. Se você já tentou resolver o problema, incluindo o número do chamado ou o número do serviço de atendimento ao cliente. 10. Se você já tentou resolver o problema, incluindo o número do chamado ou o número do serviço de atendimento ao cliente. 11. Se você já tentou resolver o problema, incluindo o número do chamado ou o número do serviço de atendimento ao cliente. 12. Se você já tentou resolver o problema, incluindo o número do chamado ou o número do serviço de atendimento ao cliente. 13. Se você já tentou resolver o problema, incluindo o número do chamado ou o número do serviço de atendimento ao cliente. 14. Se você já tentou resolver o problema, incluindo o número do chamado ou o número do serviço de atendimento ao cliente. 15. Se você já tentou",
+    "valid_json": false,
+    "attempts": [
+      {
+        "raw": "{\n  \"status\": \"nao_consta\",\n  \"resposta\": \"Para reclamar de um ônibus na SPTrans, você precisa fornecer as seguintes informações: 1. Nome completo e número de identificação do usuário. 2. Data e hora do incidente. 3. Detalhes do veículo (placa, modelo, número de identificação). 4. Descrição do problema (por exemplo, atraso, falta de limpeza, danos ao veículo). 5. Se possível, fotos do local do incidente. 6. Informações sobre o veículo (por exemplo, se é novo ou usado). 7. Se você já tentou resolver o problema, incluindo o número do chamado ou o número do serviço de atendimento ao cliente. 8. Se você já tentou resolver o problema, incluindo o número do chamado ou o número do serviço de atendimento ao cliente. 9. Se você já tentou resolver o problema, incluindo o número do chamado ou o número do serviço de atendimento ao cliente. 10. Se você já tentou resolver o problema, incluindo o número do chamado ou o número do serviço de atendimento ao cliente. 11. Se você já tentou resolver o problema, incluindo o número do chamado ou o número do serviço de atendimento ao cliente. 12. Se você já tentou resolver o problema, incluindo o número do chamado ou o número do serviço de atendimento ao cliente. 13. Se você já tentou resolver o problema, incluindo o número do chamado ou o número do serviço de atendimento ao cliente. 14. Se você já tentou resolver o problema, incluindo o número do chamado ou o número do serviço de atendimento ao cliente. 15. Se você já tentou",
+        "meta": {
+          "model": "qwen2.5:1.5b",
+          "eval_count": 400,
+          "prompt_eval_count": 142,
+          "total_duration": 3896503300
+        }
+      }
+    ],
+    "trace": [],
+    "seconds": 3.932,
+    "llm_called": true,
+    "corpus_sha256": "dcb9c0a5b4aef3d4221129fb93844646e0bf9b60a51fce24fd5115dab014ddfe",
+    "metricas": {
+      "acerto_proxy": false,
+      "recusa_esperada": false,
+      "recusou": true,
+      "citacao_correta": false,
+      "resposta_indevida_fora_base": false,
+      "conceitos_presentes": false
+    }
+  },
+  {
+    "id": "T08",
+    "modo": "sem_contexto",
+    "pergunta": "Pessoa com mobilidade reduzida pode desembarcar fora do ponto?",
+    "gabarito": {
+      "id": "T08",
+      "pergunta": "Pessoa com mobilidade reduzida pode desembarcar fora do ponto?",
+      "fontes": [
+        "SPFORA"
+      ],
+      "conceitos": [
+        [
+          "fora do ponto"
+        ],
+        [
+          "seguranca"
+        ]
+      ]
+    },
+    "answer": {
+      "status": "nao_consta",
+      "resposta": "Não consta informações específicas sobre desembarcos para pessoas com mobilidade reduzida em documentos disponíveis.",
+      "fontes": []
+    },
+    "raw": "{\"status\": \"nao_consta\", \"resposta\": \"Não consta informações específicas sobre desembarcos para pessoas com mobilidade reduzida em documentos disponíveis.\", \"fontes\": []}",
+    "valid_json": true,
+    "attempts": [
+      {
+        "raw": "{\"status\": \"nao_consta\", \"resposta\": \"Não consta informações específicas sobre desembarcos para pessoas com mobilidade reduzida em documentos disponíveis.\", \"fontes\": []}",
+        "meta": {
+          "model": "qwen2.5:1.5b",
+          "eval_count": 44,
+          "prompt_eval_count": 140,
+          "total_duration": 512352200
+        }
+      }
+    ],
+    "trace": [],
+    "seconds": 0.539,
+    "llm_called": true,
+    "corpus_sha256": "dcb9c0a5b4aef3d4221129fb93844646e0bf9b60a51fce24fd5115dab014ddfe",
+    "metricas": {
+      "acerto_proxy": false,
+      "recusa_esperada": false,
+      "recusou": true,
+      "citacao_correta": false,
+      "resposta_indevida_fora_base": false,
+      "conceitos_presentes": false
+    }
+  },
+  {
+    "id": "T09",
+    "modo": "sem_contexto",
+    "pergunta": "Em que horário mulheres e idosos podem desembarcar fora dos pontos segundo a SPTrans?",
+    "gabarito": {
+      "id": "T09",
+      "pergunta": "Em que horário mulheres e idosos podem desembarcar fora dos pontos segundo a SPTrans?",
+      "fontes": [
+        "SPFORA"
+      ],
+      "conceitos": [
+        [
+          "22"
+        ],
+        [
+          "05",
+          "5h"
+        ]
+      ]
+    },
+    "answer": {
+      "status": "nao_consta",
+      "resposta": "Não constam informações específicas sobre horários para mulheres e idosos desembarcar fora dos pontos segundo a SPTrans. É recomendável consultar diretamente a SPTrans ou o aplicativo de transporte público para obter informações mais atualizadas e precisas.",
+      "fontes": []
+    },
+    "raw": "{\"status\": \"nao_consta\", \"resposta\": \"Não constam informações específicas sobre horários para mulheres e idosos desembarcar fora dos pontos segundo a SPTrans. É recomendável consultar diretamente a SPTrans ou o aplicativo de transporte público para obter informações mais atualizadas e precisas.\", \"fontes\": []}",
+    "valid_json": true,
+    "attempts": [
+      {
+        "raw": "{\"status\": \"nao_consta\", \"resposta\": \"Não constam informações específicas sobre horários para mulheres e idosos desembarcar fora dos pontos segundo a SPTrans. É recomendável consultar diretamente a SPTrans ou o aplicativo de transporte público para obter informações mais atualizadas e precisas.\", \"fontes\": []}",
+        "meta": {
+          "model": "qwen2.5:1.5b",
+          "eval_count": 75,
+          "prompt_eval_count": 144,
+          "total_duration": 824688400
+        }
+      }
+    ],
+    "trace": [],
+    "seconds": 0.842,
+    "llm_called": true,
+    "corpus_sha256": "dcb9c0a5b4aef3d4221129fb93844646e0bf9b60a51fce24fd5115dab014ddfe",
+    "metricas": {
+      "acerto_proxy": false,
+      "recusa_esperada": false,
+      "recusou": true,
+      "citacao_correta": false,
+      "resposta_indevida_fora_base": false,
+      "conceitos_presentes": false
+    }
+  },
+  {
+    "id": "T10",
+    "modo": "sem_contexto",
+    "pergunta": "Por qual canal obtenho informações de linhas e itinerários de ônibus?",
+    "gabarito": {
+      "id": "T10",
+      "pergunta": "Por qual canal obtenho informações de linhas e itinerários de ônibus?",
+      "fontes": [
+        "SPINFO"
+      ],
+      "conceitos": [
+        [
+          "156",
+          "sptrans"
+        ]
+      ]
+    },
+    "answer": {
+      "status": "nao_consta",
+      "resposta": "Você pode obter informações de linhas e itinerários de ônibus através do aplicativo de transporte público do estado de São Paulo, o 'Transpôs'. Você pode baixar o aplicativo e acessar as informações de linha e itinerário para o seu destino desejado. Outra opção é visitar o site do 'Transpôs' ou o site do governo do estado de São Paulo para obter as informações.",
+      "fontes": [
+        "Transpôs",
+        "Governo do Estado de São Paulo"
+      ]
+    },
+    "raw": "{\n  \"status\": \"nao_consta\",\n  \"resposta\": \"Você pode obter informações de linhas e itinerários de ônibus através do aplicativo de transporte público do estado de São Paulo, o 'Transpôs'. Você pode baixar o aplicativo e acessar as informações de linha e itinerário para o seu destino desejado. Outra opção é visitar o site do 'Transpôs' ou o site do governo do estado de São Paulo para obter as informações.\",\n  \"fontes\": [\"Transpôs\", \"Governo do Estado de São Paulo\"]\n}",
+    "valid_json": true,
+    "attempts": [
+      {
+        "raw": "{\n  \"status\": \"nao_consta\",\n  \"resposta\": \"Você pode obter informações de linhas e itinerários de ônibus através do aplicativo de transporte público do estado de São Paulo, o 'Transpôs'. Você pode baixar o aplicativo e acessar as informações de linha e itinerário para o seu destino desejado. Outra opção é visitar o site do 'Transpôs' ou o site do governo do estado de São Paulo para obter as informações.\",\n  \"fontes\": [\"Transpôs\", \"Governo do Estado de São Paulo\"]\n}",
+        "meta": {
+          "model": "qwen2.5:1.5b",
+          "eval_count": 135,
+          "prompt_eval_count": 141,
+          "total_duration": 1377679500
+        }
+      }
+    ],
+    "trace": [],
+    "seconds": 1.38,
+    "llm_called": true,
+    "corpus_sha256": "dcb9c0a5b4aef3d4221129fb93844646e0bf9b60a51fce24fd5115dab014ddfe",
+    "metricas": {
+      "acerto_proxy": false,
+      "recusa_esperada": false,
+      "recusou": true,
+      "citacao_correta": false,
+      "resposta_indevida_fora_base": false,
+      "conceitos_presentes": false
+    }
+  },
+  {
+    "id": "T12",
+    "modo": "sem_contexto",
+    "pergunta": "Quantos centímetros deve ter a faixa livre da calçada segundo a NBR 9050?",
+    "gabarito": {
+      "id": "T12",
+      "pergunta": "Quantos centímetros deve ter a faixa livre da calçada segundo a NBR 9050?",
+      "fontes": [],
+      "conceitos": []
+    },
+    "answer": {
+      "status": "respondido",
+      "resposta": "De acordo com a Norma Brasileira (NBR) 9050, a faixa livre da calçada deve ter no mínimo 70 centímetros. Isso é importante para garantir a segurança dos pedestres e facilitar o fluxo de tráfego de veículos. A norma também estabelece que a faixa livre deve ser suficiente para que os pedestres possam se movimentar livremente e evitar colisões com os veículos.",
+      "fontes": [
+        "Norma Brasileira 9050: Calçadas e Pistas de Tráfego",
+        "Brasil, Ministério do Desenvolvimento, Indústria e Comércio Exterior"
+      ]
+    },
+    "raw": "{\n  \"status\": \"respondido\",\n  \"resposta\": \"De acordo com a Norma Brasileira (NBR) 9050, a faixa livre da calçada deve ter no mínimo 70 centímetros. Isso é importante para garantir a segurança dos pedestres e facilitar o fluxo de tráfego de veículos. A norma também estabelece que a faixa livre deve ser suficiente para que os pedestres possam se movimentar livremente e evitar colisões com os veículos.\",\n  \"fontes\": [\"Norma Brasileira 9050: Calçadas e Pistas de Tráfego\", \"Brasil, Ministério do Desenvolvimento, Indústria e Comércio Exterior\"]\n}",
+    "valid_json": true,
+    "attempts": [
+      {
+        "raw": "{\n  \"status\": \"respondido\",\n  \"resposta\": \"De acordo com a Norma Brasileira (NBR) 9050, a faixa livre da calçada deve ter no mínimo 70 centímetros. Isso é importante para garantir a segurança dos pedestres e facilitar o fluxo de tráfego de veículos. A norma também estabelece que a faixa livre deve ser suficiente para que os pedestres possam se movimentar livremente e evitar colisões com os veículos.\",\n  \"fontes\": [\"Norma Brasileira 9050: Calçadas e Pistas de Tráfego\", \"Brasil, Ministério do Desenvolvimento, Indústria e Comércio Exterior\"]\n}",
+        "meta": {
+          "model": "qwen2.5:1.5b",
+          "eval_count": 169,
+          "prompt_eval_count": 148,
+          "total_duration": 1716678900
+        }
+      }
+    ],
+    "trace": [],
+    "seconds": 1.72,
+    "llm_called": true,
+    "corpus_sha256": "dcb9c0a5b4aef3d4221129fb93844646e0bf9b60a51fce24fd5115dab014ddfe",
+    "metricas": {
+      "acerto_proxy": false,
+      "recusa_esperada": true,
+      "recusou": false,
+      "citacao_correta": false,
+      "resposta_indevida_fora_base": true,
+      "conceitos_presentes": true
+    }
+  },
+  {
+    "id": "T04",
+    "modo": "rag",
+    "pergunta": "Como a acessibilidade se relaciona à independência e à cidadania?",
+    "gabarito": {
+      "id": "T04",
+      "pergunta": "Como a acessibilidade se relaciona à independência e à cidadania?",
+      "fontes": [
+        "LBI53"
+      ],
+      "conceitos": [
+        [
+          "independen",
+          "autonomia"
+        ],
+        [
+          "cidadania"
+        ]
+      ]
+    },
+    "answer": {
+      "status": "nao_consta",
+      "resposta": "Não consta na base informação suficiente para responder.",
+      "fontes": []
+    },
+    "raw": null,
+    "valid_json": true,
+    "trace": [
+      {
+        "ferramenta": "buscar_base",
+        "ids": [
+          "LBI53",
+          "LBI46P1",
+          "LBI55"
+        ],
+        "scores": [
+          0.141262,
+          0.103135,
+          0.092276
+        ]
+      },
+      {
+        "acao": "recusa_limiar"
+      }
+    ],
+    "seconds": 0.0017687000001842534,
+    "llm_called": false,
+    "metricas": {
+      "acerto_proxy": false,
+      "recusa_esperada": false,
+      "recusou": true,
+      "citacao_correta": false,
+      "resposta_indevida_fora_base": false,
+      "conceitos_presentes": false
+    }
+  },
+  {
+    "id": "T09",
+    "modo": "rag",
+    "pergunta": "Em que horário mulheres e idosos podem desembarcar fora dos pontos segundo a SPTrans?",
+    "gabarito": {
+      "id": "T09",
+      "pergunta": "Em que horário mulheres e idosos podem desembarcar fora dos pontos segundo a SPTrans?",
+      "fontes": [
+        "SPFORA"
+      ],
+      "conceitos": [
+        [
+          "22"
+        ],
+        [
+          "05",
+          "5h"
+        ]
+      ]
+    },
+    "answer": {
+      "status": "nao_consta",
+      "resposta": "Não constam os horários específicos para mulheres e idosos desembarcar fora dos pontos segundo a SPTrans em documentos disponíveis.",
+      "fontes": [
+        "SPFORA",
+        "LBI46P1",
+        "SPINFO"
+      ]
+    },
+    "raw": "{\n  \"status\": \"nao_consta\",\n  \"resposta\": \"Não constam os horários específicos para mulheres e idosos desembarcar fora dos pontos segundo a SPTrans em documentos disponíveis.\",\n  \"fontes\": [\"SPFORA\", \"LBI46P1\", \"SPINFO\"]\n}",
+    "valid_json": true,
+    "attempts": [
+      {
+        "raw": "{\n  \"status\": \"nao_consta\",\n  \"resposta\": \"Não constam os horários específicos para mulheres e idosos desembarcar fora dos pontos segundo a SPTrans em documentos disponíveis.\",\n  \"fontes\": [\"SPFORA\", \"LBI46P1\", \"SPINFO\"]\n}",
+        "meta": {
+          "model": "qwen2.5:1.5b",
+          "eval_count": 69,
+          "prompt_eval_count": 454,
+          "total_duration": 1407902400
+        }
+      }
+    ],
+    "trace": [
+      {
+        "ferramenta": "buscar_base",
+        "ids": [
+          "SPFORA",
+          "LBI46P1",
+          "SPINFO"
+        ],
+        "scores": [
+          0.209735,
+          0.096116,
+          0.046803
+        ]
+      }
+    ],
+    "seconds": 1.41,
+    "llm_called": true,
+    "corpus_sha256": "dcb9c0a5b4aef3d4221129fb93844646e0bf9b60a51fce24fd5115dab014ddfe",
+    "metricas": {
+      "acerto_proxy": false,
+      "recusa_esperada": false,
+      "recusou": true,
+      "citacao_correta": true,
+      "resposta_indevida_fora_base": false,
+      "conceitos_presentes": false
+    }
+  },
+  {
+    "id": "T10",
+    "modo": "rag",
+    "pergunta": "Por qual canal obtenho informações de linhas e itinerários de ônibus?",
+    "gabarito": {
+      "id": "T10",
+      "pergunta": "Por qual canal obtenho informações de linhas e itinerários de ônibus?",
+      "fontes": [
+        "SPINFO"
+      ],
+      "conceitos": [
+        [
+          "156",
+          "sptrans"
+        ]
+      ]
+    },
+    "answer": {
+      "status": "nao_consta",
+      "resposta": "Não foi encontrado um canal específico para obter informações de linhas e itinerários de ônibus no documento fornecido.",
+      "fontes": [
+        "SPINFO",
+        "SPRECL",
+        "PLLIMIT"
+      ]
+    },
+    "raw": "{\n  \"status\": \"nao_consta\",\n  \"resposta\": \"Não foi encontrado um canal específico para obter informações de linhas e itinerários de ônibus no documento fornecido.\",\n  \"fontes\": [\"SPINFO\", \"SPRECL\", \"PLLIMIT\"]\n}",
+    "valid_json": true,
+    "attempts": [
+      {
+        "raw": "{\n  \"status\": \"nao_consta\",\n  \"resposta\": \"Não foi encontrado um canal específico para obter informações de linhas e itinerários de ônibus no documento fornecido.\",\n  \"fontes\": [\"SPINFO\", \"SPRECL\", \"PLLIMIT\"]\n}",
+        "meta": {
+          "model": "qwen2.5:1.5b",
+          "eval_count": 64,
+          "prompt_eval_count": 459,
+          "total_duration": 1365333500
+        }
+      }
+    ],
+    "trace": [
+      {
+        "ferramenta": "buscar_base",
+        "ids": [
+          "SPINFO",
+          "SPRECL",
+          "PLLIMIT"
+        ],
+        "scores": [
+          0.390317,
+          0.091406,
+          0.082791
+        ]
+      }
+    ],
+    "seconds": 1.369,
+    "llm_called": true,
+    "corpus_sha256": "dcb9c0a5b4aef3d4221129fb93844646e0bf9b60a51fce24fd5115dab014ddfe",
+    "metricas": {
+      "acerto_proxy": false,
+      "recusa_esperada": false,
+      "recusou": true,
+      "citacao_correta": true,
+      "resposta_indevida_fora_base": false,
+      "conceitos_presentes": false
+    }
+  },
+  {
+    "id": "T11",
+    "modo": "rag",
+    "pergunta": "Qual a inclinação máxima de rampa de acordo com a NBR 9050?",
+    "gabarito": {
+      "id": "T11",
+      "pergunta": "Qual a inclinação máxima de rampa de acordo com a NBR 9050?",
+      "fontes": [],
+      "conceitos": []
+    },
+    "answer": {
+      "status": "nao_consta",
+      "resposta": "Não consta a inclinação máxima de rampa especificada na NBR 9050 na base inicial. Consulte a edição licenciada e aplicável para obter valores normativos.",
+      "fontes": [
+        "PLNBR",
+        "LBI63",
+        "LBI47"
+      ]
+    },
+    "raw": "{\n  \"status\": \"nao_consta\",\n  \"resposta\": \"Não consta a inclinação máxima de rampa especificada na NBR 9050 na base inicial. Consulte a edição licenciada e aplicável para obter valores normativos.\",\n  \"fontes\": [\"PLNBR\", \"LBI63\", \"LBI47\"]\n}",
+    "valid_json": true,
+    "attempts": [
+      {
+        "raw": "{\n  \"status\": \"nao_consta\",\n  \"resposta\": \"Não consta a inclinação máxima de rampa especificada na NBR 9050 na base inicial. Consulte a edição licenciada e aplicável para obter valores normativos.\",\n  \"fontes\": [\"PLNBR\", \"LBI63\", \"LBI47\"]\n}",
+        "meta": {
+          "model": "qwen2.5:1.5b",
+          "eval_count": 83,
+          "prompt_eval_count": 461,
+          "total_duration": 1538578800
+        }
+      }
+    ],
+    "trace": [
+      {
+        "ferramenta": "buscar_base",
+        "ids": [
+          "PLNBR",
+          "LBI63",
+          "LBI47"
+        ],
+        "scores": [
+          0.307316,
+          0.058231,
+          0.054648
+        ]
+      }
+    ],
+    "seconds": 1.542,
+    "llm_called": true,
+    "corpus_sha256": "dcb9c0a5b4aef3d4221129fb93844646e0bf9b60a51fce24fd5115dab014ddfe",
+    "metricas": {
+      "acerto_proxy": true,
+      "recusa_esperada": true,
+      "recusou": true,
+      "citacao_correta": false,
+      "resposta_indevida_fora_base": false,
+      "conceitos_presentes": true
+    }
+  },
+  {
+    "id": "T04",
+    "modo": "agente",
+    "pergunta": "Como a acessibilidade se relaciona à independência e à cidadania?",
+    "gabarito": {
+      "id": "T04",
+      "pergunta": "Como a acessibilidade se relaciona à independência e à cidadania?",
+      "fontes": [
+        "LBI53"
+      ],
+      "conceitos": [
+        [
+          "independen",
+          "autonomia"
+        ],
+        [
+          "cidadania"
+        ]
+      ]
+    },
+    "answer": {
+      "status": "nao_consta",
+      "resposta": "Não consta na base informação suficiente para responder.",
+      "fontes": []
+    },
+    "raw": null,
+    "valid_json": true,
+    "trace": [
+      {
+        "ferramenta": "buscar_base",
+        "ids": [
+          "LBI53",
+          "LBI46P1",
+          "LBI55"
+        ],
+        "scores": [
+          0.141262,
+          0.103135,
+          0.092276
+        ]
+      },
+      {
+        "acao": "recusa_limiar"
+      }
+    ],
+    "seconds": 0.00199279999992541,
+    "llm_called": false,
+    "metricas": {
+      "acerto_proxy": false,
+      "recusa_esperada": false,
+      "recusou": true,
+      "citacao_correta": false,
+      "resposta_indevida_fora_base": false,
+      "conceitos_presentes": false
+    }
+  },
+  {
+    "id": "T09",
+    "modo": "agente",
+    "pergunta": "Em que horário mulheres e idosos podem desembarcar fora dos pontos segundo a SPTrans?",
+    "gabarito": {
+      "id": "T09",
+      "pergunta": "Em que horário mulheres e idosos podem desembarcar fora dos pontos segundo a SPTrans?",
+      "fontes": [
+        "SPFORA"
+      ],
+      "conceitos": [
+        [
+          "22"
+        ],
+        [
+          "05",
+          "5h"
+        ]
+      ]
+    },
+    "answer": {
+      "status": "nao_consta",
+      "resposta": "Não consta: não foi possível validar as fontes da resposta.",
+      "fontes": []
+    },
+    "raw": "{\n  \"status\": \"nao_consta\",\n  \"resposta\": \"Não constam os horários específicos para mulheres e idosos desembarcar fora dos pontos segundo a SPTrans em documentos disponíveis.\",\n  \"fontes\": [\"SPFORA\", \"LBI46P1\", \"SPINFO\"]\n}",
+    "valid_json": true,
+    "attempts": [
+      {
+        "raw": "{\n  \"status\": \"nao_consta\",\n  \"resposta\": \"Não constam os horários específicos para mulheres e idosos desembarcar fora dos pontos segundo a SPTrans em documentos disponíveis.\",\n  \"fontes\": [\"SPFORA\", \"LBI46P1\", \"SPINFO\"]\n}",
+        "meta": {
+          "model": "qwen2.5:1.5b",
+          "eval_count": 69,
+          "prompt_eval_count": 454,
+          "total_duration": 694139400
+        }
+      },
+      {
+        "raw": "{\n  \"status\": \"nao_consta\",\n  \"resposta\": \"Não constam os horários específicos para mulheres e idosos desembarcar fora dos pontos segundo a SPTrans em documentos disponíveis.\",\n  \"fontes\": [\"SPFORA\", \"LBI46P1\", \"SPINFO\"]\n}",
+        "meta": {
+          "model": "qwen2.5:1.5b",
+          "eval_count": 69,
+          "prompt_eval_count": 604,
+          "total_duration": 885677000
+        }
+      }
+    ],
+    "trace": [
+      {
+        "ferramenta": "buscar_base",
+        "ids": [
+          "SPFORA",
+          "LBI46P1",
+          "SPINFO"
+        ],
+        "scores": [
+          0.209735,
+          0.096116,
+          0.046803
+        ]
+      },
+      {
+        "ferramenta": "validar_contrato_e_citacoes",
+        "problemas": [
+          "recusa_com_fontes"
+        ],
+        "json_valido": true
+      },
+      {
+        "ferramenta": "revisar_e_reparar_uma_vez",
+        "problemas": [
+          "recusa_com_fontes"
+        ]
+      }
+    ],
+    "seconds": 1.6,
+    "llm_called": true,
+    "corpus_sha256": "dcb9c0a5b4aef3d4221129fb93844646e0bf9b60a51fce24fd5115dab014ddfe",
+    "metricas": {
+      "acerto_proxy": false,
+      "recusa_esperada": false,
+      "recusou": true,
+      "citacao_correta": false,
+      "resposta_indevida_fora_base": false,
+      "conceitos_presentes": false
+    }
+  },
+  {
+    "id": "T10",
+    "modo": "agente",
+    "pergunta": "Por qual canal obtenho informações de linhas e itinerários de ônibus?",
+    "gabarito": {
+      "id": "T10",
+      "pergunta": "Por qual canal obtenho informações de linhas e itinerários de ônibus?",
+      "fontes": [
+        "SPINFO"
+      ],
+      "conceitos": [
+        [
+          "156",
+          "sptrans"
+        ]
+      ]
+    },
+    "answer": {
+      "status": "nao_consta",
+      "resposta": "Não consta: não foi possível validar as fontes da resposta.",
+      "fontes": []
+    },
+    "raw": "{\n  \"status\": \"nao_consta\",\n  \"resposta\": \"Não foi encontrado um canal específico para obter informações de linhas e itinerários de ônibus no documento fornecido.\",\n  \"fontes\": [\"SPINFO\", \"SPRECL\", \"PLLIMIT\"]\n}",
+    "valid_json": true,
+    "attempts": [
+      {
+        "raw": "{\n  \"status\": \"nao_consta\",\n  \"resposta\": \"Não foi encontrado um canal específico para obter informações de linhas e itinerários de ônibus no documento fornecido.\",\n  \"fontes\": [\"SPINFO\", \"SPRECL\", \"PLLIMIT\"]\n}",
+        "meta": {
+          "model": "qwen2.5:1.5b",
+          "eval_count": 64,
+          "prompt_eval_count": 459,
+          "total_duration": 629968200
+        }
+      },
+      {
+        "raw": "{\n  \"status\": \"nao_consta\",\n  \"resposta\": \"Não foi encontrado um canal específico para obter informações de linhas e itinerários de ônibus no documento fornecido.\",\n  \"fontes\": [\"SPINFO\", \"SPRECL\", \"PLLIMIT\"]\n}",
+        "meta": {
+          "model": "qwen2.5:1.5b",
+          "eval_count": 64,
+          "prompt_eval_count": 604,
+          "total_duration": 837213400
+        }
+      }
+    ],
+    "trace": [
+      {
+        "ferramenta": "buscar_base",
+        "ids": [
+          "SPINFO",
+          "SPRECL",
+          "PLLIMIT"
+        ],
+        "scores": [
+          0.390317,
+          0.091406,
+          0.082791
+        ]
+      },
+      {
+        "ferramenta": "validar_contrato_e_citacoes",
+        "problemas": [
+          "recusa_com_fontes"
+        ],
+        "json_valido": true
+      },
+      {
+        "ferramenta": "revisar_e_reparar_uma_vez",
+        "problemas": [
+          "recusa_com_fontes"
+        ]
+      }
+    ],
+    "seconds": 1.473,
+    "llm_called": true,
+    "corpus_sha256": "dcb9c0a5b4aef3d4221129fb93844646e0bf9b60a51fce24fd5115dab014ddfe",
+    "metricas": {
+      "acerto_proxy": false,
+      "recusa_esperada": false,
+      "recusou": true,
+      "citacao_correta": false,
+      "resposta_indevida_fora_base": false,
+      "conceitos_presentes": false
+    }
+  }
+]

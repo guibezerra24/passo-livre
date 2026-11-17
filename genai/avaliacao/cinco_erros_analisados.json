@@ -1,0 +1,78 @@
+[
+  {
+    "modo": "sem_contexto",
+    "id": "T12",
+    "titulo": "Afirmação normativa sem suporte",
+    "pergunta": "Quantos centímetros deve ter a faixa livre da calçada segundo a NBR 9050?",
+    "resposta_observada": {
+      "status": "respondido",
+      "resposta": "De acordo com a Norma Brasileira (NBR) 9050, a faixa livre da calçada deve ter no mínimo 70 centímetros. Isso é importante para garantir a segurança dos pedestres e facilitar o fluxo de tráfego de veículos. A norma também estabelece que a faixa livre deve ser suficiente para que os pedestres possam se movimentar livremente e evitar colisões com os veículos.",
+      "fontes": [
+        "Norma Brasileira 9050: Calçadas e Pistas de Tráfego",
+        "Brasil, Ministério do Desenvolvimento, Indústria e Comércio Exterior"
+      ]
+    },
+    "causa_observada": "O modelo apresentou um número de largura de calçada embora a NBR não integre a base. A referência gerada não foi recuperada.",
+    "correcao_proposta": "Recusar números normativos fora da base; incluir apenas edição licenciada, com rastreabilidade e teste específico."
+  },
+  {
+    "modo": "rag",
+    "id": "T06",
+    "titulo": "Complemento não fundamentado",
+    "pergunta": "Sites de empresas brasileiras e órgãos de governo devem oferecer acessibilidade?",
+    "resposta_observada": {
+      "status": "respondido",
+      "resposta": "De acordo com os documentos fornecidos, os sites de empresas brasileiras e órgãos de governo devem oferecer acessibilidade para pessoas com deficiência, conforme melhores práticas e diretrizes de acessibilidade internacionalmente adotadas. Isso inclui a disponibilidade de conteúdo em formato alternativo, suporte de assistentes virtuais, navegação fácil e interação com o usuário. Além disso, os projetos do meio físico, transporte, informação, comunicação e outros serviços devem atender ao desenho universal e ter como referência as normas de acessibilidade.",
+      "fontes": [
+        "LBI63",
+        "LBI55",
+        "LBI53"
+      ]
+    },
+    "causa_observada": "Acertou a obrigação geral de acessibilidade, mas acrescentou suporte de assistentes virtuais como se estivesse no trecho. O avaliador por palavras-chave marcou acerto.",
+    "correcao_proposta": "Avaliar cada afirmação contra a evidência; restringir resposta ao trecho e revisar o conjunto de avaliação semântica."
+  },
+  {
+    "modo": "agente",
+    "id": "T07",
+    "titulo": "Troca do sujeito da limitação",
+    "pergunta": "Quais informações preciso fornecer para reclamar de um ônibus na SPTrans?",
+    "resposta_observada": {
+      "status": "respondido",
+      "resposta": "Para reclamar de um ônibus na SPTrans, você precisará fornecer os seguintes detalhes: o prefixo do veículo, a data, o local, o horário e a descrição do ocorrido. A Central 156 é o local onde você pode fazer a reclamação. O site da SPTrans e a Central 156 são canais de informações sobre linhas e itinerários, mas não fornecem horários de chegada nem confirmação da acessibilidade de uma calçada em tempo real.",
+      "fontes": [
+        "SPRECL",
+        "SPINFO",
+        "LBI53"
+      ]
+    },
+    "causa_observada": "A ausência de horários na base do Passo Livre foi atribuída ao site/canal SPTrans, alterando o sentido do documento. A revisão do agente não corrigiu.",
+    "correcao_proposta": "Separar política local de fonte externa em metadados; verificar quem é o sujeito da afirmação na revisão."
+  },
+  {
+    "modo": "rag",
+    "id": "T04",
+    "titulo": "Recusa por limiar",
+    "pergunta": "Como a acessibilidade se relaciona à independência e à cidadania?",
+    "resposta_observada": {
+      "status": "nao_consta",
+      "resposta": "Não consta na base informação suficiente para responder.",
+      "fontes": []
+    },
+    "causa_observada": "O trecho correto foi o primeiro resultado, mas score 0,141 ficou abaixo do limiar 0,20.",
+    "correcao_proposta": "Ampliar validação com paráfrases; comparar embeddings e reranking; não reduzir o limiar só para corrigir este teste."
+  },
+  {
+    "modo": "agente",
+    "id": "T09",
+    "titulo": "Recusa indevida apesar da evidência",
+    "pergunta": "Em que horário mulheres e idosos podem desembarcar fora dos pontos segundo a SPTrans?",
+    "resposta_observada": {
+      "status": "nao_consta",
+      "resposta": "Não consta: não foi possível validar as fontes da resposta.",
+      "fontes": []
+    },
+    "causa_observada": "O trecho SPFORA traz o horário, mas a geração recusou e incluiu fontes. Após reparo inválido, o agente aplicou recusa segura.",
+    "correcao_proposta": "Separar trechos longos em unidades de informação, testar modelo maior e reforçar extração fundamentada; registrar custo e impacto."
+  }
+]

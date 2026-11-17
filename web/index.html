@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#153f3a">
+  <meta name="description" content="Explore solicitações públicas relacionadas à mobilidade em São Paulo. Passo Livre: dados, acessibilidade e participação cidadã.">
+  <title>Passo Livre — A cidade, passo a passo</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/vendor/leaflet.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/vendor/leaflet.js" defer></script>
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#explorar">Pular para os dados</a>
+  <header class="header"><div class="header-inner">
+    <a class="brand" href="#inicio" aria-label="Passo Livre, início"><span class="brand-icon" aria-hidden="true">↗</span><span>passo<span class="brand-light">livre</span><small>ACESSIBILIDADE EM MOVIMENTO</small></span></a>
+    <nav aria-label="Navegação principal"><a href="#explorar" class="nav-current">Explorar a cidade</a><a href="#assistente">Assistente</a><a href="#sobre">Sobre os dados</a></nav>
+    <span class="city-pill"><span aria-hidden="true">◉</span> São Paulo, SP</span>
+  </div></header>
+  <main id="inicio">
+    <section class="hero wrap" aria-labelledby="headline">
+      <div><p class="eyebrow"><span></span> CIDADANIA · MOBILIDADE · INCLUSÃO</p><h1 id="headline">A cidade é de todos.<br><em>Cada passo importa.</em></h1><p class="intro">Informação para enxergar as barreiras, entender as demandas e acompanhar a mobilidade nos bairros de São Paulo.</p></div>
+      <aside class="hero-note"><span class="note-icon" aria-hidden="true">↗</span><strong>Um olhar sobre<br>o seu bairro.</strong><p>Explore solicitações públicas de manutenção e acessibilidade, distrito por distrito.</p><a href="#explorar">Explorar o mapa <span aria-hidden="true">↓</span></a></aside>
+    </section>
+    <section class="wrap metrics" aria-label="Resumo da base de dados">
+      <article><div class="metric-label">Solicitações no recorte <span aria-hidden="true">↗</span></div><strong id="total">—</strong><small>Dados públicos do SP156</small></article>
+      <article><div class="metric-label">Distritos representados <span aria-hidden="true">⌖</span></div><strong id="district-count">—</strong><small>Território de São Paulo</small></article>
+      <article><div class="metric-label">Abertas ou em andamento <span class="dot orange" aria-hidden="true"></span></div><strong id="open-count">—</strong><small>Na fotografia da publicação</small></article>
+      <article><div class="metric-label">Finalizadas <span class="dot teal" aria-hidden="true"></span></div><strong id="finished-rate">—</strong><small>Conclusão administrativa do chamado</small></article>
+    </section>
+    <section id="explorar" class="wrap explore" aria-labelledby="explore-title">
+      <div class="section-head"><div><p class="eyebrow">EXPLORE O TERRITÓRIO</p><h2 id="explore-title">O que acontece pela cidade</h2></div><span id="source-badge" class="source-badge">Carregando dados…</span></div>
+      <div class="notice"><span aria-hidden="true">ⓘ</span><p><strong>Um retrato histórico, não uma rota em tempo real.</strong> Localizações são aproximadas. Ausência de solicitações não garante passagem livre.</p></div>
+      <form id="filters" class="filters" role="search" aria-label="Filtrar solicitações">
+        <label class="search-field">Buscar serviço<input id="search" type="search" placeholder="Ex.: calçada, entulho, árvore" maxlength="120"></label>
+        <label>Distrito<select id="district"><option value="">Todos os distritos</option></select></label>
+        <label>Situação<select id="status"><option value="">Todas as situações</option><option value="abertas">Abertas / em andamento</option><option value="finalizadas">Finalizadas</option><option value="canceladas">Canceladas</option></select></label>
+        <button id="clear" type="button" class="button secondary">Limpar filtros</button>
+      </form>
+      <div id="load-error" class="error" role="alert" hidden><p id="load-error-text"></p><button id="retry" class="button secondary" type="button">Tentar novamente</button></div>
+      <div id="auth-box" class="auth-box" hidden><label>Chave de acesso da instalação local<input id="access-key" type="password" autocomplete="off"></label><button id="connect" class="button" type="button">Conectar</button><small>A chave fica apenas nesta aba.</small></div>
+      <div class="explorer-grid">
+        <section class="map-panel" aria-label="Mapa e legenda">
+          <div class="map-title"><span><span class="dot teal" aria-hidden="true"></span> Mapa de solicitações</span><button id="reset-map" type="button" class="text-button">Enquadrar pontos ↗</button></div>
+          <div id="map" aria-label="Mapa de São Paulo. Os mesmos registros estão disponíveis na lista ao lado."><p class="map-loading">Preparando o mapa…</p></div>
+          <div class="map-footer"><span><i class="dot orange"></i> Abertas / em andamento</span><span><i class="dot teal"></i> Finalizadas</span><span><i class="dot gray"></i> Canceladas</span></div>
+          <p id="map-count" class="map-caption">Carregando localizações…</p>
+        </section>
+        <section class="results-panel" aria-labelledby="results-title"><div class="results-head"><h3 id="results-title">Solicitações</h3><span id="result-count" role="status" aria-live="polite">Carregando…</span></div><p class="list-hint">Selecione um registro para vê-lo no mapa.</p><div id="results" class="result-list" aria-busy="true"><p class="empty">Buscando dados públicos…</p></div><div class="pagination"><button id="previous" type="button" aria-label="Página anterior" disabled>←</button><span id="page-label">—</span><button id="next" type="button" aria-label="Próxima página" disabled>→</button></div></section>
+      </div>
+    </section>
+    <section id="assistente" class="wrap assistant-section" aria-labelledby="assistant-title">
+      <div class="assistant-intro"><p class="eyebrow">INFORMAÇÃO COM FONTES</p><h2 id="assistant-title">Conhecer seus direitos<br>também abre caminhos.</h2><p>Um assistente para consultar informações sobre acessibilidade e transporte. Cada resposta indica suas fontes — e informa quando a base não tem a resposta.</p><span class="local-label" id="assistant-label">Assistente local</span></div>
+      <div class="assistant-card"><div class="assistant-card-head"><span class="assistant-avatar" aria-hidden="true">✦</span><div><strong>Assistente Passo Livre</strong><small>Direitos e transporte acessível</small></div></div><p id="assistant-notice">Faça uma pergunta sobre a base documental do projeto.</p><div class="suggestions"><button type="button" data-question="Qual direito ao transporte a pessoa com mobilidade reduzida possui?">Direito ao transporte</button><button type="button" data-question="Quais dados devo informar na reclamação de um ônibus?">Reclamação de ônibus</button></div><form id="question-form"><label for="question">Sua pergunta</label><textarea id="question" rows="3" minlength="4" maxlength="1000" required placeholder="Como registrar uma reclamação sobre um ônibus?"></textarea><div class="question-actions"><small>Respostas podem conter erros. Confira as fontes.</small><button id="ask" type="submit" class="button">Consultar <span aria-hidden="true">↗</span></button></div></form><div id="answer" class="answer" role="status" aria-live="polite" hidden></div></div>
+    </section>
+    <section id="sobre" class="wrap about" aria-labelledby="about-title"><div><p class="eyebrow">TRANSPARÊNCIA EM CADA PASSO</p><h2 id="about-title">De onde vêm os dados?</h2><p>Solicitações do SP156, distritos do IBGE e contexto de chuva do Open-Meteo. A base foi tratada e validada no Databricks antes de chegar a esta tela.</p><p id="period" class="period">Carregando período da base…</p></div><div class="about-details"><details><summary>O que significa uma solicitação finalizada?</summary><p>É um status administrativo na publicação do SP156. Não comprova remoção física de uma barreira nem garante acessibilidade no local.</p></details><details><summary>Precisão e privacidade</summary><p>As coordenadas foram arredondadas a três casas decimais, aproximadamente 100 metros. Não publicamos endereço, número, CEP, nome, CPF ou telefone. Os pontos não devem orientar desvios precisos na calçada.</p></details><details><summary>Fontes e limites da análise</summary><p>A coleta diária consulta uma publicação histórica: ela não torna os chamados atuais. Os dados não representam todos os obstáculos existentes. Pontos podem se sobrepor por localização aproximada. No mapa, exibimos até 300 registros por filtro; a lista dá acesso a todos os resultados.</p><ul><li><a href="https://dados.prefeitura.sp.gov.br/dataset/dados-do-sp156" target="_blank" rel="noopener noreferrer">SP156 · catálogo público (CC0)</a></li><li><a href="https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3550308/distritos" target="_blank" rel="noopener noreferrer">IBGE · distritos de São Paulo</a></li><li><a href="https://open-meteo.com/en/docs/historical-weather-api" target="_blank" rel="noopener noreferrer">Open-Meteo · dados meteorológicos (CC BY 4.0)</a></li></ul></details></div></section>
+  </main>
+  <footer class="footer"><div class="wrap"><a class="brand" href="#inicio"><span class="brand-icon" aria-hidden="true">↗</span><span>passo<span class="brand-light">livre</span></span></a><p>Projeto acadêmico · FIAP Global Solution 2026.2<br><span>Guilherme Rezende Bezerra · Gustavo Brisqui · Matheus Brisqui</span></p><a href="https://github.com/guibezerra24/passo-livre" target="_blank" rel="noopener noreferrer">Código e metodologia ↗</a></div></footer>
+</body>
+</html>

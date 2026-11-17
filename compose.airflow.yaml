@@ -1,0 +1,18 @@
+services:
+  airflow:
+    build:
+      context: ./bigdata
+      dockerfile: Dockerfile.airflow
+    command: standalone
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__CORE__DAGS_FOLDER: /opt/airflow/project/bigdata/dags
+      PYTHONPATH: /opt/airflow/project
+      PASSO_ROOT: /opt/airflow/project
+    volumes:
+      - ./:/opt/airflow/project
+      - airflow_state:/opt/airflow
+volumes:
+  airflow_state:

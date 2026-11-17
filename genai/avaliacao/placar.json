@@ -1,0 +1,40 @@
+{
+  "executado_em_utc": "2026-11-17T11:50:06.582949+00:00",
+  "python": "3.13.16",
+  "limite": "Acerto por conceitos e resposta indevida fora da base são proxies. Citação válida não prova fundamentação semântica.",
+  "configuracoes": [
+    {
+      "modo": "sem_contexto",
+      "n": 16,
+      "acerto_proxy": 0.375,
+      "contrato_valido_primeira_geracao": 0.9375,
+      "citacao_correta": 0.3125,
+      "resposta_indevida_fora_base": 0.16666666666666666,
+      "latencia_media_s": 1.3615625,
+      "chamadas_llm": 16,
+      "perguntas_com_llm": 16
+    },
+    {
+      "modo": "rag",
+      "n": 16,
+      "acerto_proxy": 0.8125,
+      "contrato_valido_primeira_geracao": 1,
+      "citacao_correta": 0.75,
+      "resposta_indevida_fora_base": 0,
+      "latencia_media_s": 1.1645338499999838,
+      "chamadas_llm": 10,
+      "perguntas_com_llm": 10
+    },
+    {
+      "modo": "agente",
+      "n": 16,
+      "acerto_proxy": 0.8125,
+      "contrato_valido_primeira_geracao": 1,
+      "citacao_correta": 0.8125,
+      "resposta_indevida_fora_base": 0,
+      "latencia_media_s": 1.82260548124998,
+      "chamadas_llm": 20,
+      "perguntas_com_llm": 10
+    }
+  ]
+}
