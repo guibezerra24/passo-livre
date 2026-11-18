@@ -1,0 +1,36 @@
+# Segundo dia de coleta — 18/11/2026
+
+**Coleta concluída; carga no Databricks pendente.** O painel publicado e as auditorias atuais do Databricks ainda correspondem ao lote de 17/11. Não interpretar os valores abaixo como resultados já carregados no lakehouse.
+
+## Execução comprovada
+
+Airflow: `scheduled__2026-11-18T12:00:00+00:00`, estado `success`. Agendamento diário às 9h de São Paulo. Nesta data o computador estava desligado no horário previsto: a execução começou às **11:41:06** e terminou às **11:41:54**, após o serviço ser iniciado.
+
+IBGE, clima e SP156 executaram em paralelo, seguidos de `conferir_chegada`. `sptrans_opcional` retornou `nao_configurada`; não houve coleta de SPTrans.
+
+![Graph da coleta de 18/11](../bigdata/evidencias/airflow-graph-18.jpg)
+
+![Grid e estado da execução](../bigdata/evidencias/airflow-grid-18.jpg)
+
+## Lote selecionado
+
+| Pasta no Volume | Arquivo | Linhas |
+|---|---|---:|
+| `chegada/ibge` | `ibge_20261118T144111342047Z.jsonl` | 96 |
+| `chegada/clima` | `clima_20261118T144112141339Z.jsonl` | 91 |
+| `chegada/sp156` | `sp156_20261118T144151581097Z.jsonl` | 60.466 |
+
+Total: **60.653 linhas**. Os nomes contêm horário UTC; os manifestos registram origem, instante de coleta e SHA-256. Os três hashes foram conferidos contra os arquivos selecionados. Uma execução manual adicional ocorreu no mesmo dia; seus arquivos não foram selecionados para este lote e ela não constitui um terceiro dia de coleta.
+
+O CSV original do SP156 manteve o mesmo SHA-256 do dia 17. Trata-se de nova coleta real de uma publicação histórica de abril a junho de 2026, não de 60.466 novas solicitações. A chave técnica depende da posição da linha no recurso; a igualdade do arquivo original foi verificada antes de preparar a segunda carga.
+
+## Passos para concluir
+
+1. No Catalog Explorer, abrir `workspace → passo_livre → Volumes → chegada`.
+2. Enviar pela interface cada JSONL para sua pasta `ibge`, `clima` ou `sp156`, preservando os arquivos de 17/11. O briefing pede envio manual pela interface; o primeiro lote utilizou a CLI oficial e essa diferença está documentada.
+3. Conferir os três arquivos e executar `01_lakehouse` no Databricks.
+4. Registrar o incremento real da Bronze, contagens Prata/Ouro, regras de qualidade e cinco consultas.
+5. Reexecutar sem novos arquivos e verificar incremento zero. Não registrar contagens esperadas como se fossem observadas.
+6. Exportar a Ouro, importar no app, atualizar a fotografia pública e finalizar o PDF com os resultados efetivamente obtidos.
+
+A quarentena é avaliada sobre as versões de linhas na Bronze. Depois de dois lotes do mesmo recurso, contagens de linhas rejeitadas podem aumentar sem representar mais solicitações distintas. Não somar violações de regras como se fossem rejeitados únicos.
