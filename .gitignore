@@ -15,3 +15,5 @@ bigdata/evidencias/databricks/run_*.json
 bigdata/evidencias/databricks/output_*.json
 bigdata/evidencias/databricks/notebook_*.html
 !docs/Passo_Livre_Big_Data_PRELIMINAR.pdf
+
+!docs/Passo_Livre_Big_Data_FINAL.pdf

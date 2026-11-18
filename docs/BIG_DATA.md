@@ -39,9 +39,9 @@ flowchart LR
 ## Requisitos 01 a 09
 
 1. **Fontes:** três fontes externas reais executadas. Manifestos em `bigdata/evidencias/coletas` e amostras em `bigdata/amostras`.
-2. **DAG:** `bigdata/dags/passo_livre_diario.py`, diário às 09h de São Paulo, `catchup=False`, tentativas e logs de falha. Dispare manualmente a primeira coleta hoje.
+2. **DAG:** `bigdata/dags/passo_livre_diario.py`, diário às 09h de São Paulo, `catchup=False`, tentativas e logs de falha. Execuções reais em 17 e 18/11 documentadas.
 3. **Paralelismo:** IBGE, clima e SP156 independentes; `conferir_chegada` verifica existência, quantidade e SHA-256. Token opcional no Airflow Variable `SPTRANS_TOKEN`, nunca no código. Notificação atual em log operacional; canal externo não configurado.
-4. **Dois lotes:** precisa de dias reais de coleta distintos. Execute hoje e amanhã. Não altere datas do computador ou manifestos. `python -m bigdata.check_collection_days` retorna código 2 enquanto faltar o segundo dia. Consultar dois trimestres hoje não satisfaz esse requisito.
+4. **Dois lotes:** precisa de dias reais de coleta distintos. Foram coletados lotes em 17 e 18/11/2026. Não altere datas do computador ou manifestos. `python -m bigdata.check_collection_days` retorna código 2 enquanto faltar o segundo dia. Consultar dois trimestres hoje não satisfaz esse requisito.
 5. **Bronze:** `COPY INTO` carrega arquivos JSONL como texto preservado. Não renomeie arquivos já carregados. A tabela `auditoria_bronze` registra antes, depois e novas linhas. Faça: lote 1 → lote 2 → repetir sem novos arquivos. A terceira execução deve acrescentar zero.
 6. **Prata:** conversão segura de datas e coordenadas; vínculo de distrito; seis regras com contagens e quarentena; última versão por chave; `MERGE` pela chave técnica. Contagens por regra podem se sobrepor. A caixa geográfica é uma validação ampla, não o limite oficial do município.
 7. **Ouro:** uma fato no grão de solicitação e dimensões de distrito, serviço e data. `ponto_id` nulo até haver associação validada. Cinco consultas executáveis no notebook e na pré-validação local.
@@ -83,7 +83,7 @@ Execução direta não substitui os prints Graph/Grid da disciplina.
 8. Baixar `part-*.json` em `exportacao/mvp`; importar no projeto com `python -m bigdata.import_gold CAMINHO_DO_ARQUIVO`.
 9. Abrir o app local, que consome `/v1/painel` sem preview. Fotografar a tela e gerar a fotografia pública com `python -m scripts.build_public`; atualizar GitHub Pages conforme APP.md.
 
-Primeiro lote executado no Databricks em 17/11/2026: Bronze 60.653, Prata/Ouro 60.366, quarentena 100, dimensões 96 distritos / 20 serviços / 91 datas. Cinco consultas e exportação real para a API concluídas. Evidências em `bigdata/evidencias/databricks`. A primeira tentativa falhou porque PATTERN recebeu expressão regular; corrigido para o glob `*.jsonl`, conforme a documentação oficial de COPY INTO. O primeiro upload foi feito pela CLI oficial com OAuth porque a interface rejeitou automação. Registrar upload manual do segundo lote no Catalog Explorer; esse segundo dia continua pendente.
+Primeiro lote executado no Databricks em 17/11/2026: Bronze 60.653, Prata/Ouro 60.366, quarentena 100, dimensões 96 distritos / 20 serviços / 91 datas. Cinco consultas e exportação real para a API concluídas. Evidências em `bigdata/evidencias/databricks`. A primeira tentativa falhou porque PATTERN recebeu expressão regular; corrigido para o glob `*.jsonl`, conforme a documentação oficial de COPY INTO. O primeiro upload foi feito pela CLI oficial com OAuth porque a interface rejeitou automação. O segundo lote foi enviado manualmente pelo integrante no Catalog Explorer em 18/11. Seus três hashes foram conferidos após download. A carga acrescentou 60.653 linhas (Bronze total 121.306); a reexecução sem upload acrescentou zero. Prata/Ouro permaneceram com 60.366 solicitações. Quarentena: 200 versões de linhas, correspondentes aos mesmos 100 IDs inválidos presentes nos dois lotes. Seis regras sobre 120.932 linhas SP156: distrito 200, coordenada 130 e demais regras zero. As violações se sobrepõem.
 
 ## Interpretação das consultas
 
@@ -95,7 +95,7 @@ Primeiro lote executado no Databricks em 17/11/2026: Bronze 60.653, Prata/Ouro 6
 
 ## Evidências para o PDF final
 
-O PDF desta preparação identifica o que foi executado e o que ainda está pendente. Antes de entregar, complementar na ordem pedida: integrantes; produto e perguntas; diagrama; fontes; requisitos 01–09; Graph/Grid concluídos; contagens Bronze em três execuções; cinco consultas com resultados e interpretação; conclusão e GitHub público.
+O [PDF final](Passo_Livre_Big_Data_FINAL.pdf) reúne as evidências na ordem pedida: integrantes; produto e perguntas; diagrama; fontes; requisitos 01–09; Graph/Grid concluídos; contagens Bronze em três execuções; cinco consultas com resultados e interpretação; conclusão e GitHub público.
 
 ## Limitações de identidade e atualizações
 

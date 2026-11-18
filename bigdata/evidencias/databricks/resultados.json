@@ -160,11 +160,11 @@
           "solicitacoes": 611
         },
         {
-          "distrito": "Vila Maria",
+          "distrito": "Perdizes",
           "solicitacoes": 601
         },
         {
-          "distrito": "Perdizes",
+          "distrito": "Vila Maria",
           "solicitacoes": 601
         },
         {
@@ -710,16 +710,16 @@
           "media_dias_finalizadas": 5.64
         },
         {
-          "distrito": "Vila Maria",
-          "solicitacoes": 601,
-          "percentual_finalizadas": 90.52,
-          "media_dias_finalizadas": 9.99
-        },
-        {
           "distrito": "Perdizes",
           "solicitacoes": 601,
           "percentual_finalizadas": 68.22,
           "media_dias_finalizadas": 11.09
+        },
+        {
+          "distrito": "Vila Maria",
+          "solicitacoes": 601,
+          "percentual_finalizadas": 90.52,
+          "media_dias_finalizadas": 9.99
         },
         {
           "distrito": "Tucuruvi",
@@ -1467,6 +1467,18 @@
         "bronze_depois": 60653,
         "linhas_novas": 0,
         "executado_em": "2026-11-17T12:56:11.187Z"
+      },
+      {
+        "bronze_antes": 60653,
+        "bronze_depois": 121306,
+        "linhas_novas": 60653,
+        "executado_em": "2026-11-18T14:59:45.163Z"
+      },
+      {
+        "bronze_antes": 121306,
+        "bronze_depois": 121306,
+        "linhas_novas": 0,
+        "executado_em": "2026-11-18T15:02:27.371Z"
       }
     ],
     "auditoria_qualidade": [
@@ -1491,6 +1503,28 @@
         "avaliados": 60466,
         "rejeitados_distintos": 100,
         "executado_em": "2026-11-17T12:56:21.435Z"
+      },
+      {
+        "id_ausente": 0,
+        "abertura_invalida": 0,
+        "finalizacao_invalida": 0,
+        "distrito_desconhecido": 200,
+        "coordenada_invalida": 130,
+        "cronologia_invalida": 0,
+        "avaliados": 120932,
+        "rejeitados_distintos": 200,
+        "executado_em": "2026-11-18T15:00:03.468Z"
+      },
+      {
+        "id_ausente": 0,
+        "abertura_invalida": 0,
+        "finalizacao_invalida": 0,
+        "distrito_desconhecido": 200,
+        "coordenada_invalida": 130,
+        "cronologia_invalida": 0,
+        "avaliados": 120932,
+        "rejeitados_distintos": 200,
+        "executado_em": "2026-11-18T15:02:37.879Z"
       }
     ],
     "auditoria_execucoes": [
@@ -1521,12 +1555,40 @@
         "prata_ocorrencias": 60366,
         "quarentena": 100,
         "executado_em": "2026-11-17T12:57:04.496Z"
+      },
+      {
+        "bronze": 121306,
+        "bronze_antes": 60653,
+        "bronze_depois": 121306,
+        "dim_data": 91,
+        "dim_distrito": 96,
+        "dim_servico": 20,
+        "fato_ocorrencias": 60366,
+        "linhas_novas": 60653,
+        "prata_clima": 91,
+        "prata_ocorrencias": 60366,
+        "quarentena": 200,
+        "executado_em": "2026-11-18T15:01:01.126Z"
+      },
+      {
+        "bronze": 121306,
+        "bronze_antes": 121306,
+        "bronze_depois": 121306,
+        "dim_data": 91,
+        "dim_distrito": 96,
+        "dim_servico": 20,
+        "fato_ocorrencias": 60366,
+        "linhas_novas": 0,
+        "prata_clima": 91,
+        "prata_ocorrencias": 60366,
+        "quarentena": 200,
+        "executado_em": "2026-11-18T15:03:24.520Z"
       }
     ]
   },
   "mvp": {
     "registros": 60366,
-    "arquivo": "part-00000-tid-7898749946141406289-f77713d2-3ca4-4509-8f8a-8a5303ee5f61-420-1-c000.json",
-    "sha256": "077503c9c8a0a340e405a7ed1093eafb8a90d67ef11738fcb9b2dd2e693d73e0"
+    "arquivo": "part-00000-tid-7507585768024390704-8f255a2a-f915-40e8-ae54-4f831646ab59-470-1-c000.json",
+    "sha256": "f3870502a5d3262a48f9e056c292eea5154cb0ea288172a02f8193bc8fee029e"
   }
 }

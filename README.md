@@ -4,7 +4,7 @@ Mapa colaborativo de barreiras em calçadas e pontos de ônibus para pessoas com
 
 **[Abrir painel público](https://guibezerra24.github.io/passo-livre/)** · **[Código no GitHub](https://github.com/guibezerra24/passo-livre)** · [Como executar o app local](docs/APP.md)
 
-O painel mostra uma fotografia real da Ouro: **60.366 solicitações**, 96 distritos, coleta de 17/11/2026. A versão local integra o assistente com fontes; a versão pública não executa o modelo local. As coletas reais de **17 e 18/11/2026** estão comprovadas. Falta enviar o segundo lote ao Volume, executar a carga no Databricks e atualizar o painel e o PDF. Veja [as evidências e o roteiro do segundo lote](docs/LOTE2.md).
+O painel mostra uma fotografia real da Ouro: **60.366 solicitações**, 96 distritos, coleta de **18/11/2026**. Big Data foi executado com coletas reais dos dias **17 e 18/11**, Bronze com **121.306 linhas** e reexecução sem incremento. A versão local integra o assistente com fontes; a versão pública não executa o modelo local. [Relatório final Big Data](docs/Passo_Livre_Big_Data_FINAL.pdf) · [Evidências do segundo lote](docs/LOTE2.md).
 
 ## Ficha Técnica
 

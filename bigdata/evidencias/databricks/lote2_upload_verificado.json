@@ -1,0 +1,68 @@
+[
+  {
+    "fonte": "ibge",
+    "arquivo": "ibge_20261118T144111342047Z.jsonl",
+    "destino": "/Volumes/workspace/passo_livre/chegada/ibge",
+    "linhas": 96,
+    "sha256": "804b2cff4615447eee00ffe2a8c0dfd0e8f3fef838df80604eb5d4db282f8d01",
+    "hash_confere": true,
+    "inventario_volume": [
+      {
+        "name": "ibge_20261117T115202331350Z.jsonl",
+        "is_directory": false,
+        "size": 22345,
+        "last_modified": "2026-11-17T09:51:08-03:00"
+      },
+      {
+        "name": "ibge_20261118T144111342047Z.jsonl",
+        "is_directory": false,
+        "size": 22345,
+        "last_modified": "2026-11-18T11:55:43-03:00"
+      }
+    ]
+  },
+  {
+    "fonte": "clima",
+    "arquivo": "clima_20261118T144112141339Z.jsonl",
+    "destino": "/Volumes/workspace/passo_livre/chegada/clima",
+    "linhas": 91,
+    "sha256": "6c0d52ffec7a4e486929ce6e5989491b8d3a108e88509dcdcae73259a83928ec",
+    "hash_confere": true,
+    "inventario_volume": [
+      {
+        "name": "clima_20261117T115203169305Z.jsonl",
+        "is_directory": false,
+        "size": 20032,
+        "last_modified": "2026-11-17T09:51:10-03:00"
+      },
+      {
+        "name": "clima_20261118T144112141339Z.jsonl",
+        "is_directory": false,
+        "size": 20032,
+        "last_modified": "2026-11-18T11:58:08-03:00"
+      }
+    ]
+  },
+  {
+    "fonte": "sp156",
+    "arquivo": "sp156_20261118T144151581097Z.jsonl",
+    "destino": "/Volumes/workspace/passo_livre/chegada/sp156",
+    "linhas": 60466,
+    "sha256": "76f0424ab7832e36e5e0252e6a2a8886b88f391b390e107b5b804ce745836b95",
+    "hash_confere": true,
+    "inventario_volume": [
+      {
+        "name": "sp156_20261117T115236986252Z.jsonl",
+        "is_directory": false,
+        "size": 39719208,
+        "last_modified": "2026-11-17T09:51:15-03:00"
+      },
+      {
+        "name": "sp156_20261118T144151581097Z.jsonl",
+        "is_directory": false,
+        "size": 39719208,
+        "last_modified": "2026-11-18T11:58:39-03:00"
+      }
+    ]
+  }
+]

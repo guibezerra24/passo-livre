@@ -1,6 +1,6 @@
 # Segundo dia de coleta — 18/11/2026
 
-**Coleta concluída; carga no Databricks pendente.** O painel publicado e as auditorias atuais do Databricks ainda correspondem ao lote de 17/11. Não interpretar os valores abaixo como resultados já carregados no lakehouse.
+**Coleta, carga e reexecução concluídas no Databricks em 18/11/2026.** Bronze: 60.653 → 121.306 após o segundo lote; reexecução: 121.306 → 121.306, incremento zero. Prata/Ouro: 60.366 solicitações. O integrante realizou o upload manual dos três arquivos e a conferência dos arquivos remotos confirmou os hashes locais.
 
 ## Execução comprovada
 
@@ -24,7 +24,7 @@ Total: **60.653 linhas**. Os nomes contêm horário UTC; os manifestos registram
 
 O CSV original do SP156 manteve o mesmo SHA-256 do dia 17. Trata-se de nova coleta real de uma publicação histórica de abril a junho de 2026, não de 60.466 novas solicitações. A chave técnica depende da posição da linha no recurso; a igualdade do arquivo original foi verificada antes de preparar a segunda carga.
 
-## Passos para concluir
+## Procedimento executado e reprodução
 
 1. No Catalog Explorer, abrir `workspace → passo_livre → Volumes → chegada`.
 2. Enviar pela interface cada JSONL para sua pasta `ibge`, `clima` ou `sp156`, preservando os arquivos de 17/11. O briefing pede envio manual pela interface; o primeiro lote utilizou a CLI oficial e essa diferença está documentada.
@@ -34,3 +34,7 @@ O CSV original do SP156 manteve o mesmo SHA-256 do dia 17. Trata-se de nova cole
 6. Exportar a Ouro, importar no app, atualizar a fotografia pública e finalizar o PDF com os resultados efetivamente obtidos.
 
 A quarentena é avaliada sobre as versões de linhas na Bronze. Depois de dois lotes do mesmo recurso, contagens de linhas rejeitadas podem aumentar sem representar mais solicitações distintas. Não somar violações de regras como se fossem rejeitados únicos.
+
+## Resultado final
+
+Os dois envios foram preservados, a carga e a reexecução terminaram com sucesso, as cinco consultas foram exportadas e a Ouro foi importada para o app. Auditorias completas em [resultados.json](../bigdata/evidencias/databricks/resultados.json); inventário e hashes em [lote2_upload_verificado.json](../bigdata/evidencias/databricks/lote2_upload_verificado.json). O primeiro envio foi via CLI oficial; apenas o segundo foi manual pela interface.
