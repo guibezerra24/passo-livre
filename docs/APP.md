@@ -7,6 +7,8 @@
 
 Publicado em 17/11/2026: https://guibezerra24.github.io/passo-livre/ . Código: https://github.com/guibezerra24/passo-livre . Publicação confirmada como concluída e página respondendo HTTP 200.
 
+Atualizado em 18/11/2026 com a nova exportação Ouro: 60.366 solicitações, coleta exibida em 18/11 e 96 distritos. Carga do segundo lote e repetição sem incremento concluídas no Databricks; tela local e pública verificadas. Capturas em `bigdata/evidencias/app-final-18.jpg` e `app-publico-final-18.jpg`.
+
 ## Abrir localmente
 
 Na raiz do repositório, com as dependências instaladas e a exportação Ouro importada:
