@@ -13,7 +13,7 @@
 
 ## GenAI
 
-Implementação local e avaliação concluídas: Qwen2.5 1.5B, base com 11 trechos, 16 perguntas em três configurações, recall, placar e análise de erros. O vídeo solicitado ao grupo ainda não foi recebido nesta conversa. Não afirmar entrega de GenAI sem vincular a gravação e submeter no Teams.
+Implementação local e avaliação concluídas: Qwen2.5 1.5B, base com 11 trechos, 16 perguntas em três configurações, recall, placar e análise de erros. Os oito critérios têm implementação e evidências mapeadas em [GENAI.md](GENAI.md). Isso não garante pontuação integral: persistem erros semânticos documentados. A entrega formal é o link do repositório no Teams; a submissão ainda não foi confirmada. O briefing não exige explicitamente vídeo; a gravação proposta ao grupo é complementar e ainda não foi recebida.
 
 ## Ação do grupo
 

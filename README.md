@@ -88,6 +88,6 @@ tests/                  contrato, autenticação e qualidade
 
 Repositório **público** em `guibezerra24/passo-livre`. A branch `main` contém os módulos e a branch `gh-pages` recebe apenas `web/`. Nunca envie `.env`, tokens, dados brutos pessoais, volumes, logs com credenciais ou os pesos do modelo. A pasta `bigdata/chegada` é local e ignorada pelo Git; envie-a manualmente ao Databricks. Os RM fazem parte da autoria exigida. Metadados privados do workspace Databricks ficam fora da publicação; auditorias numéricas e consultas estão disponíveis.
 
-GenAI: link do GitHub no Teams e demonstração em vídeo vinculada ao relatório. Big Data: PDF final com evidências e GitHub no Teams. Prazo informado no briefing: **19/11/2026 às 23h55**. Manter links acessíveis durante a correção, por até uma semana após o encerramento.
+GenAI: link do GitHub no Teams, com notebook com saídas, base, testes, API, README e relatório no repositório. O briefing consultado não exige explicitamente vídeo nem fixa duração; uma gravação pode complementar a demonstração. Big Data: PDF final com evidências e GitHub no Teams. Prazo informado no briefing: **19/11/2026 às 23h55**. Manter links acessíveis durante a correção, por até uma semana após o encerramento.
 
 O painel público é estático e deve ser atualizado após cada importação da Ouro; consulte [o roteiro de atualização](docs/APP.md). Não há abertura de chamados municipais nem emissão de rotas garantidas neste módulo.

@@ -122,4 +122,21 @@ Seguir o README; executar `python -m genai.evaluate --retrieval-only` e `python 
 
 O experimento mostra benefício da recuperação de contexto sobre o modelo sem contexto neste conjunto. Também mostra que uma revisão pela mesma LLM não garante respostas fundamentadas. Prioridades: corpus maior com fontes licenciadas, avaliação independente, modelos mais capazes e verificação de afirmações. Não apresentar o protótipo como orientação jurídica definitiva ou roteador acessível certificado.
 
-**Links:** [GitHub público](https://github.com/guibezerra24/passo-livre) e [painel público](https://guibezerra24.github.io/passo-livre/). **Pendente:** vídeo de demonstração com assistente local e análise dos experimentos. Roteiro em `docs/ROTEIRO_DEMONSTRACAO.md`.
+**Links:** [GitHub público](https://github.com/guibezerra24/passo-livre) e [painel público](https://guibezerra24.github.io/passo-livre/). **Entrega formal:** link do repositório no Teams. O briefing consultado não exige explicitamente vídeo nem fixa duração. A gravação de demonstração proposta é complementar; quando disponível, seu link poderá ser acrescentado aqui. Roteiro em `docs/ROTEIRO_DEMONSTRACAO.md`.
+
+## Conferência dos oito critérios
+
+Conferência em 18/11/2026. Presença de implementação e evidências não equivale a pontuação garantida. As limitações do experimento e os erros reais estão descritos acima.
+
+| Critério | Evidência no repositório | Resultado / limite |
+|---|---|---|
+| 01. Tarefa e testes com gabarito, incluindo não consta | [Teste](../genai/avaliacao/teste.json), [validação](../genai/avaliacao/validacao.json) e tarefa neste relatório | 16 testes: 10 respondíveis e 6 sem resposta na base; 8 perguntas de validação separadas. |
+| 02. Base em trechos com fonte | [Trechos](../genai/base/trechos.jsonl) e [fontes](../genai/base/fontes.json) | 11 trechos com ID, URL e condição de uso; corpus inicial pequeno. |
+| 03. Recall e limiar justificado | [Busca](../genai/avaliacao/busca.json), [limiar](../genai/avaliacao/limiar.json) | Recall@1 e @3 de 1,00 nas 10 respondíveis antes do limiar; limiar 0,20. Ajuste exploratório, não teste cego independente. |
+| 04. JSON, citação e recusa | [Implementação](../genai/engine.py), [respostas completas](../genai/avaliacao/respostas.jsonl), [API](../api/main.py) | Contrato estruturado, fontes e recusa implementados e demonstrados. IDs válidos não garantem fundamentação semântica; há falhas reais registradas. |
+| 05. LoRA ou agente comparado ao RAG | [Agente](../genai/engine.py) e [placar](../genai/avaliacao/placar.json) | Alternativa agente: busca, validação e revisão limitada. Não houve LoRA ou alteração de pesos; empate com RAG por conceitos. |
+| 06. Placar das três configurações interpretado | [Placar](../genai/avaliacao/placar.json), [notebook com saídas](../genai/notebooks/01_avaliacao_com_saidas.ipynb) e análise neste relatório | 48 avaliações; acerto por conceitos 37,5% / 81,25% / 81,25%. Revisão semântica assistida: 68,75% nas duas configurações com contexto. |
+| 07. Cinco erros reais e propostas | [Cinco erros](../genai/avaliacao/cinco_erros_analisados.json) e seção correspondente neste relatório | Casos reais preservados, causa e proposta; as propostas não são apresentadas como correções já concluídas. |
+| 08. README e reprodução | [README](../README.md), [dependências executadas](../requirements-executado.txt) e notebook | Instruções de instalação, modelo, API e avaliação; requer instalação local e download dos pesos. |
+
+Integração: app local usa a API e o modelo Ollama; GitHub Pages serve somente o painel de dados. A seção de segurança descreve minimização de dados, execução local e limites; não representa certificação formal de conformidade com a LGPD.
